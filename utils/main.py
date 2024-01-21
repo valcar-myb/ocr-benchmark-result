@@ -1,75 +1,96 @@
 from PIL import Image, ImageDraw
 import os
 import json
+import time
+import matplotlib.pyplot as plt
 
 
 path = "/home/rainer/Code/ocr-train/data/iam/testSet"
+number = 0
 
-def check(ranges,ym,yM):
-    for r in ranges:
-        # caso in cui una word è più grande di un range
-        if ym <= r[0] and r[1] <= yM:
-            return (1,r)
-        # caso in cui una word è più piccola di un range
-        if r[0] <= ym and yM <= r[1]:
-            return (2,r)
-        # caso in cui la parte superiore di una word è sovrapposta a un range
-        if r[0] <= ym and r[1] < yM:
-            if int((ym + yM)/2) < r[1]:
-                return (3,r)
-        # caso in cui la parte inferiore di una word è sovrapposta a un range
-        if yM <= r[1] and ym < r[0]:
-            if int((ym + yM)/2) > r[0]:
-                return (4,r)
-    return None
+def check(rows_range,box):
+    result = (0,box)
+    for row in rows_range:
+        # caso in cui box corrente è più grande di un range
+        if box[0] < row[0] and row[1] < box[1]:
+            result = (1,row)
 
-def create_yranges(pred_lst):
-    ranges = []
-    for word in pred_lst:
-        coord = word[1]
-        ym = coord[1]
-        yM = coord[3]
+        # caso in cui parte superiore del box è sovrapposto al range
+        if row[0] <= box[0] and row[1] < box[1]:
+            if row[1] - box[0] > int((box[1] - box[0])/2):
+                result = (2,row)
 
-        result = check(ranges,ym,yM)
-        if result == None:
-            ranges.append((ym,yM))
-        else:
-            if result[0] == 1:
-                ranges.remove(result[1])
-                ranges.append((ym,yM))
-            if result[0] == 3:
-                ranges.remove(result[1])
-                ranges.append((result[1][0],yM))
-            if result[0] == 4:
-                ranges.remove(result[1])
-                ranges.append((ym,result[1][1]))
-    return sorted(ranges,key=lambda x: x[0])
+        # caso in cui parte inferiore del box è sovrapposto al range
+        if box[0] < row[0] and box[1] <= row[1]:
+            if box[1] - row[0] > int((box[1] - box[0])/2):
+                result = (3,row)
 
-def orderByY(ranges,pred_lst):
-    rows = [[] for _ in range(0,len(ranges))]
+        # caso in cui box corrente è più piccolo del range
+        if row[0] <= box[0] and box[1] <= row[1]:
+            result = (4,row)
+    return result
+
+def prediction_rows(pred_lst):
+    rows_range = []
+    # pred -> (str * list)
+    for pred in pred_lst:
+        box = pred[1]
+        ym = box[1]
+        yM = box[3]
+        check_result = check(rows_range,(ym,yM))
+
+        id_case = check_result[0]
+        result = check_result[1]
+
+        if id_case == 0:
+            rows_range.append(result)
+        elif id_case == 1:
+            rows_range.remove(result)
+            rows_range.append((ym,yM))
+        elif id_case == 2:
+            rows_range.remove(result)
+            rows_range.append((result[0],yM))
+        elif id_case == 3:
+            rows_range.remove(result)
+            rows_range.append((ym,result[1]))
+        elif id_case == 4:
+            None
+    # da qui si ottengono la maggior parte dei range
+    yRange_sorted = sorted(rows_range,key = lambda x:x[0])
+    # adesso si eliminano gli intervalli totalmente compresi
+    ranges_to_delete = set()
+    for i,x in enumerate(yRange_sorted):
+        for j,y in enumerate(yRange_sorted):
+            if i != j:
+                if y[0] <= x[0] and x[1] <= y[1]:
+                    ranges_to_delete.add(x)
+    for rtd in ranges_to_delete:
+        yRange_sorted.remove(rtd)
+
+    return yRange_sorted
+
+def sortByYAxis(yRange_sorted,pred_lst):
+    lines = [[] for _ in range(0,len(yRange_sorted))]
     for pred in pred_lst:
         coord = pred[1]
         yAvg = int((coord[1] + coord[3])/2)
-        for i,r in enumerate(ranges):
-            if r[0] < yAvg and yAvg < r[1]:
-                rows[i].append((pred[0],coord[0]))
-    return rows
+        for i,yr in enumerate(yRange_sorted):
+            if yAvg in range(yr[0],yr[1]):
+                lines[i].append((pred[0],coord[0]))
+    return lines
 
-
-# order by x the 
-def orderByX(ySorted):
+def sortByXAxis(sortedByY):
     xSorted = []
-    for row in ySorted:
+    for row in sortedByY:
         xSorted.append(sorted(row,key=lambda x: x[1]))
     return xSorted
 
-def createPredictionByLine(pred_lst):
-    ySorted = orderByY(create_yranges(pred_lst),pred_lst)
-    xSorted = orderByX(ySorted)
-    
-    # getting only the words inside xSorted
+def orderPredictionByLine(pred_lst):
+    yRange_sorted = prediction_rows(pred_lst)
+    sortedByY = sortByYAxis(yRange_sorted,pred_lst)
+    sortedByX = sortByXAxis(sortedByY)
     pred_text = []
-    for element in xSorted:
+    for element in sortedByX:
         pred_text.append([x[0] for x in element])
 
     # joining all the words in the respective row
@@ -78,11 +99,12 @@ def createPredictionByLine(pred_lst):
         pred_line.append(' '.join(element))
     return pred_line
 
-def doctr_draw():
+def doctr_draw(): 
     test_folder = os.listdir(path)
     test_folder.sort()
     jsonResult = dict()
     for image in test_folder:
+        #print(image)
         img = Image.open(f"{path}/{image}")
         result = json.load(open(f"/home/rainer/Code/ocr-benchmark-result/results/partial/iam/doctr/{image[:-4]}.json"))
 
@@ -101,12 +123,9 @@ def doctr_draw():
                         #draw.rectangle(coord,outline="black")
                         #draw.text((coord[0],coord[1]),text=word["value"])
         #img.save(f"prova/{image}")
-        fullPagePrediction = createPredictionByLine(pred_lst)
-        jsonResult[image] = fullPagePrediction
-    with open("/home/rainer/Code/ocr-benchmark-result/results/iam/doctr/result.json","w") as f:
-        json.dump(jsonResult,f,indent=4)
-        
-        
+        jsonResult[image] = orderPredictionByLine(pred_lst)
+        with open("results/iam/doctr/result.json","w") as f:
+            json.dump(jsonResult,f,indent=4)
     
 def easyocr_draw():
     test_folder = os.listdir(path)
@@ -127,10 +146,9 @@ def easyocr_draw():
                 xM = max(coord[0],xM)
                 yM = max(coord[1],yM)
             pred_lst.append((word["text"],[int(xm),int(ym),int(xM),int(yM)]))
-        fullPagePrediction = createPredictionByLine(pred_lst)
-        jsonResult[image] = fullPagePrediction
-    with open("/home/rainer/Code/ocr-benchmark-result/results/iam/easyocr/result.json","w") as f:
-        json.dump(jsonResult,f,indent=4)
+        jsonResult[image] = orderPredictionByLine(pred_lst)
+        with open("results/iam/easyocr/result.json","w") as f:
+            json.dump(jsonResult,f,indent=4)
 
 def mmocr_draw():
     test_folder = os.listdir(path)
@@ -156,10 +174,10 @@ def mmocr_draw():
             pred_lst.append((text,[int(xm),int(ym),int(xM),int(yM)]))
             #draw.rectangle((xm,ym,xM,yM),outline="black")
             #draw.text((xm,ym),text=text)
-        fullPagePrediction = createPredictionByLine(pred_lst)
-        jsonResult[image] = fullPagePrediction
-    with open("/home/rainer/Code/ocr-benchmark-result/results/iam/mmocr/result.json","w") as f:
-        json.dump(jsonResult,f,indent=4)
+        #img.save(f"pictures/iam/{image}")
+        jsonResult[image] = orderPredictionByLine(pred_lst)
+        with open("results/iam/mmocr/result.json","w") as f:
+            json.dump(jsonResult,f,indent=4)
     
 def paddleocr_draw():
     test_folder = os.listdir(path)
@@ -182,10 +200,9 @@ def paddleocr_draw():
                 yM = max(coord[1],yM)
             pred_lst.append((word["text"],[int(xm),int(ym),int(xM),int(yM)]))
             #draw.rectangle((xm,ym,xM,yM),outline="black")
-        fullPagePrediction = createPredictionByLine(pred_lst)
-        jsonResult[image] = fullPagePrediction
-    with open("/home/rainer/Code/ocr-benchmark-result/results/iam/paddleocr/result.json","w") as f:
-        json.dump(jsonResult,f,indent=4)
+        jsonResult[image] = orderPredictionByLine(pred_lst)
+        with open("results/iam/paddleocr/result.json","w") as f:
+            json.dump(jsonResult,f,indent=4)
     
 def tesseract_draw():
     test_folder = os.listdir(path)
@@ -206,16 +223,14 @@ def tesseract_draw():
                     int(result["left"][i]) + int(result["width"][i]),int(result["top"][i]) + int(result["height"][i])
                 )
                 pred_lst.append((text,coord))
-
-        fullPagePrediction = createPredictionByLine(pred_lst)
-        jsonResult[image] = fullPagePrediction
-    with open("/home/rainer/Code/ocr-benchmark-result/results/iam/tesseractocr/result.json","w") as f:
-        json.dump(jsonResult,f,indent=4)
-        
+        jsonResult[image] = orderPredictionByLine(pred_lst)
+        with open("results/iam/tesseractocr/result.json","w") as f:
+            json.dump(jsonResult,f,indent=4)
 
 
-#print(doctr_draw())
-#print(easyocr_draw())
-#print(mmocr_draw())
-#print(paddleocr_draw())
+
+print(doctr_draw())
+print(easyocr_draw())
+print(mmocr_draw())
+print(paddleocr_draw())
 print(tesseract_draw())
