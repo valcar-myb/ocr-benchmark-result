@@ -124,8 +124,8 @@ def doctr_draw():
                         #draw.text((coord[0],coord[1]),text=word["value"])
         #img.save(f"prova/{image}")
         jsonResult[image] = orderPredictionByLine(pred_lst)
-        with open("results/iam/doctr/result.json","w") as f:
-            json.dump(jsonResult,f,indent=4)
+    with open("results/iam/doctr/result.json","w") as f:
+        json.dump(jsonResult,f,indent=4)
     
 def easyocr_draw():
     test_folder = os.listdir(path)
@@ -147,8 +147,8 @@ def easyocr_draw():
                 yM = max(coord[1],yM)
             pred_lst.append((word["text"],[int(xm),int(ym),int(xM),int(yM)]))
         jsonResult[image] = orderPredictionByLine(pred_lst)
-        with open("results/iam/easyocr/result.json","w") as f:
-            json.dump(jsonResult,f,indent=4)
+    with open("results/iam/easyocr/result.json","w") as f:
+        json.dump(jsonResult,f,indent=4)
 
 def mmocr_draw():
     test_folder = os.listdir(path)
@@ -176,8 +176,8 @@ def mmocr_draw():
             #draw.text((xm,ym),text=text)
         #img.save(f"pictures/iam/{image}")
         jsonResult[image] = orderPredictionByLine(pred_lst)
-        with open("results/iam/mmocr/result.json","w") as f:
-            json.dump(jsonResult,f,indent=4)
+    with open("results/iam/mmocr/result.json","w") as f:
+        json.dump(jsonResult,f,indent=4)
     
 def paddleocr_draw():
     test_folder = os.listdir(path)
@@ -201,8 +201,8 @@ def paddleocr_draw():
             pred_lst.append((word["text"],[int(xm),int(ym),int(xM),int(yM)]))
             #draw.rectangle((xm,ym,xM,yM),outline="black")
         jsonResult[image] = orderPredictionByLine(pred_lst)
-        with open("results/iam/paddleocr/result.json","w") as f:
-            json.dump(jsonResult,f,indent=4)
+    with open("results/iam/paddleocr/result.json","w") as f:
+        json.dump(jsonResult,f,indent=4)
     
 def tesseract_draw():
     test_folder = os.listdir(path)
@@ -224,8 +224,8 @@ def tesseract_draw():
                 )
                 pred_lst.append((text,coord))
         jsonResult[image] = orderPredictionByLine(pred_lst)
-        with open("results/iam/tesseractocr/result.json","w") as f:
-            json.dump(jsonResult,f,indent=4)
+    with open("results/iam/tesseractocr/result.json","w") as f:
+        json.dump(jsonResult,f,indent=4)
 
 
 
