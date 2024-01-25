@@ -210,20 +210,20 @@ def tesseract_draw():
     jsonResult = dict()
     for image in test_folder:
         img = Image.open(f"{path}/{image}")
-        result = json.load(open(f"/home/rainer/Code/ocr-benchmark-result/results/partial/iam/tesseractocr/{image[:-4]}.json"))
+        result = json.load(open(f"/home/rainer/Code/ocr-benchmark-result/results/partial/iam/tesseractocr/{image[:-4]}.json"))["lines"]
 
         pred_lst = []
 
-        #draw = ImageDraw.Draw(img)
+        for line in result:
+            pred_lst.append({
+                "text":line["text"],
+                "y": line["bounding_box"][1]
+            })
 
-        for i,text in enumerate(result["text"]):
-            if result["conf"][i] != -1:
-                coord = (
-                    int(result["left"][i]),int(result["top"][i]),
-                    int(result["left"][i]) + int(result["width"][i]),int(result["top"][i]) + int(result["height"][i])
-                )
-                pred_lst.append((text,coord))
-        jsonResult[image] = orderPredictionByLine(pred_lst)
+        pred_lst = sorted(pred_lst,key= lambda x:x["y"])
+        final_lst = [element["text"] for element in pred_lst]
+        jsonResult[image] = final_lst
+    print(jsonResult)
     with open("results/iam/tesseractocr/result.json","w") as f:
         json.dump(jsonResult,f,indent=4)
 
