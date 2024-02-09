@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qIhgrIDYdfVWxGAi6ojuxivTV0bM",
+    "object": "chat.completion",
+    "created": 1707475644,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1467,
+        "completion_tokens": 279,
+        "total_tokens": 1746
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "RESTAURANT JIAWEI\nJIAWEI HOUSE\n002693074-K\n13, JLN IASIK UTAMA 8\nMEDAN NIAGA DAMAI SG BESI\n57000 KL\nINVOICE\n\nInvoice : 8884 Cashier: admin\nPOS No: 2\nDate : 23/2/2018 20:04:08\nTable : 13\n\nITEM QTY U/P(RM) DISG(%) Amt(RM)\nRed Cat Fish 1 42.00 0.00 42.1\nSteamed\nGinger Clams (S) 1 20.00 0.00 \nBeancurd W Dao Gan(S) 1 18.00 0.00 \nG.Dragon Chives(S) 1 16.00 0.00 \nSTIR FRIED\nPu Er (1-3) 1 5.00 0.00 5.0\nHOT\nRice (B)\nRice Small 1 00 0.00 3.0\n\nSub Total Before discount RM 110.00\nService Char. RM 0.00\nTotal Sales RM 110.00\nRounding Adjustment : RM 0.00\n\nTOTAL RM 110.00\n**************************************************"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

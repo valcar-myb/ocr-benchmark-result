@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qLCqtsq4AUEf5HB1rAgST14HVDdS",
+    "object": "chat.completion",
+    "created": 1707485264,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1127,
+        "completion_tokens": 223,
+        "total_tokens": 1350
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "Buy Sell Trade Sdn. Bhd.\n604412-X\n\nTax Invoice\n\nGST ID: 001869250560\n7 & 7A, Jalan Kasuarina 1/KS 7,\nBandar Botanik,\n41200 Klang, SELANGOR\n\nCS No.: 0007/0112423 04/02/2017 07:14PM\nSold To: CASH\n\nDescription                  Amount(RM)\nTN1149/N070F/COOKING POT\nSR 1 X               26.90                    26.90\nDiscount 0.00 RM: 26.90\n\nTotal Qty: 1\nTotal Sales Inclusive GST                       26.90\nCash                 27.00\nVoucher               0.00\nCheque                0.00\nChange                0.10\n\nGST Summary       Amount(RM)                Tax(RM)\nSR @ 6.00%             25.38                                 1.52\n\nCashier: 435007\n\nThank You. Please Come Again."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

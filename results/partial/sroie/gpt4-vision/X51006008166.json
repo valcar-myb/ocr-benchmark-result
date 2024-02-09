@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qJC4yiWmgtGb85no5Gg6gsViBQfX",
+    "object": "chat.completion",
+    "created": 1707477528,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1467,
+        "completion_tokens": 256,
+        "total_tokens": 1723
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "Tax Invoice\n\nFLORISM DE ART (940075-X)\nLOT 2.70.00, LEVEL 2,\nPAVILION KUALA LUMPUR,\n168, JALAN BUKIT BINTANG,\n55100 KUALA LUMPUR, MALAYSIA.\nTel: 03-2142 3855\nGST Reg.: 000397606912\n\n--------------------------------------------------------------\nDocument No.: T01005445\nDate: 14/01/2018 05:03:35 PM\nDebtor: \nMember: \nPromoter: \nTerminal: T01\nCashier: ADMIN\n\n--------------------------------------------------------------\nDESC                    QTY        U. PRICE        Disc        AMOUNT        TAX\n                                                                           CODE\nOPEN                  1 NO *      750.00                      750.00       SR\n\nSub Total (Exclusive GST):                                         707.55\nGST 6%:                                                                             42.45\nRounding Adj.:                                                                0.00\n--------------------------------------------------------------\nRounded Total (RM):                                                     750.00\n--------------------------------------------------------------\n                                                                              750.00\nCredit Card\n\nGST Summary\nSR @ 6 %                        Amount(RM)                  Tax(RM)\n                                                707.55                         42.45"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

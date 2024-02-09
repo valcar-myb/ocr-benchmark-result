@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qJAa3W2Kn0T5VFJxCCuJJPr47hjm",
+    "object": "chat.completion",
+    "created": 1707477436,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1127,
+        "completion_tokens": 313,
+        "total_tokens": 1440
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "PRINT EXPERT SDN BHD\n(989625-A)\n\nNO 18, 20, 22, JALAN BUNGA TANJONG 2/16,\n40000 SHAH ALAM, SELANGOR\n\nTEL: 03-55250588\nGST ID: 000886677504\n\nTAX INVOICE\n\nReceipt #: CS00634200\nStaff: LEO\nCashier: USER\nTable: 105\nDate: 25/03/2018\nTime: 15:32:00\n\nDescription Qty Price Amt Tax\nFLYERS IVORY A5 40 0.82 32.80 SR\nMIRRORKOTE DIECUT 20 4.35 88.92 SR\n\nTotal: 60 119.57\n\nTotal Sales (Excluding GST): 112.80\nDiscount: 0.00\nService Charge: 0.00\nTotal GST: 6.77\nRounding: -0.02\nTotal Sales (Inclusive of GST) 119.55\n\n{000031013140} VISA 119.55\nCHANGE 0.00\n\nGST SUMMARY\n\nTax Code % Amt (RM) Tax (RM)\nSR 6 112.80 6.77\n\nTotal: 112.80 6.77\n\n* indicated this tax code belong to service charges.\n\nGOODS SOLD ARE NOT RETURNABLE, ITEM NOT COLLECTED MORE THAN 1 MONTH WILL BE DISPOSED"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

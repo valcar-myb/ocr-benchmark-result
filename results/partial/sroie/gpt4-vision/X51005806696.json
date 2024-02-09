@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qJ8uDJ1QyFv3SOZVIWcBKOEoiuvA",
+    "object": "chat.completion",
+    "created": 1707477332,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1127,
+        "completion_tokens": 246,
+        "total_tokens": 1373
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "IMAGE PRINTEC (M) SDN BHD\nReg No: 416123-U\nGST: 001241862144\n\nNo. 12A-G, Jalan Wangsa Delima 11,\nD'wangsa Wangsa Maju,\n53300 Kuala Lumpur.\nT: +(603) 4141 9822 F:+(603) 4141 9722\n\nTAX INVOICE\n\nCB#: 61967                          23/02/2018 7:44:16\nSalesperson: \n\nQty     Desc                                     Price         Total\n2         COLOR COPY A4                   1.00            2.00 SR\n2         PHOTOCOPY A4                  0.10            0.20 SR\n2         LAMINATE A4                     2.50            5.00 SR\n\n                                         6 Type: 3\n\nSubTotal:                                               7.20\nGST 6%                                                       0.43\nRounding Adj:                                          0.02\nNET TOTAL:                                             7.65\nCASH                                                          10.00\nChange:                                                     2.35\n\nThank you.\nPlease come again."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

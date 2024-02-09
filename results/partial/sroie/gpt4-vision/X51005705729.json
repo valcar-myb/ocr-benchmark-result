@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qIsWLeC2XvqwSb6PelPHInk787Yg",
+    "object": "chat.completion",
+    "created": 1707476316,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1467,
+        "completion_tokens": 351,
+        "total_tokens": 1818
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "ASO ELECTRICAL TRADING SDN BHD\n100131-K\nNO 31G, JALAN SEPADU C 25/C, \nSECTION 26, TAMAN INDUSTRIES, \nAXIS 40400 SHAH ALAM, SELANGOR.\nTEL : 03-51221701, 51313091       FAX: 03-51215716\nGST NO : 000683900928\n\nTAX INVOICE\n\nBill To:\n\nReceipt #: CS00088810            Date: 13/10/2017\nSalesperson:                         Time: 11:37:00\nCashier: USER\n\nItem                  Qty           RSP          (GST)\n                                                           RSP          (GST)\n                                                          Amount\n101861           10              1.43\nSR: CABLE LUG 50MM(M10)                    1.51             15.12\n107645            1               75.00\nSR: CRIMPING TOOL, HS-38, 5.5MM - 38MM          79.50             79.50\nTOT QTY:   11\n\n(Excluded GST) Sub Total                       89.26\nDiscount                                      0.00\nTotal GST                                      5.36\nRounding                                    -0.02\nTotal                                          94.60\nCASH:                                        100.00\nChange:                                        5.40\n\nGST SUMMARY\nTax Code      %           Amount         GST\nSR                6              89.26             5.35\nTotal:                              89.26             5.36\n\nGOODS SOLD ARE NOT RETURNABLE, \nTHANK YOU."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

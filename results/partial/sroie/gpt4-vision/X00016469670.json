@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qIXEzHsWtJ5vhQ1MsdQUEihW7SRG",
+    "object": "chat.completion",
+    "created": 1707474996,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 447,
+        "completion_tokens": 183,
+        "total_tokens": 630
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "TAX INVOICE\nInvoice No: PEGIV-1030765\nDate: 15/01/2019 11:05:16 AM\nCashier: NG CHUAN MIN\nSales Person: FATIN\nBill To: THE PEAK QUARRY WORKS\nAddress: ...\n\nDescription Qty Price Amount\n000000111 1 193.00 193.00 SR\nKINGS SAFETY SHOES KWD 805\n\nQty: 1 Total Exclude GST: 193.00\nTotal GST @6%: 0.00\nTotal Inclusive GST: 193.00\nRound Amt: 193.00\nTOTAL: 193.00\n\nVISA CARD 193.00\nxxxxxxx04318\nApproval Code: 000\n\nGoods Sold Are Not Returnable & Refundable\n****Thank You. Please Come Again.****"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

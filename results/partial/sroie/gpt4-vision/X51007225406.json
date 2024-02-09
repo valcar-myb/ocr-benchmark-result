@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qLfcuFl36OeERJjrEhjnp7Sddd7a",
+    "object": "chat.completion",
+    "created": 1707487048,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1127,
+        "completion_tokens": 226,
+        "total_tokens": 1353
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "UNIPHARM PHARMACY\nB12, Jalan SS 15/4D,\n47500 Subang Jaya,\n03-5635 1892 / 03-5611 6279\nGST Reg: 001123352576\n\nTAX INVOICE\n\nCB#: 212039\nCashier: manager\nQty Code&Desc @Price Total\n2 347959 2.36 4.72 SR\nDRESSING SETS 3 FORCEP\n1 2266 18.77 18.77 SR\nBURNSHIELD HYDROGEL 25ML\nType: 2 Subtotal 23.49\nGST 6% 1.41\nRounding Adj 0.00\nTotal Inclusive GST 24.90\nCASH 50.00\nChange: 10\n\nGST Summary\nCode Amount (MYR) GST (MYR)\nSR 6% 23.49 1.41\nTotal 23.49 1.41\n\nThank you.\nPlease come again.\nGoods sold non returnable."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qLCMT4llaby9xg6XX90ba5hOvBfW",
+    "object": "chat.completion",
+    "created": 1707485234,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1467,
+        "completion_tokens": 237,
+        "total_tokens": 1704
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "RESTORAN WAN SHI*\n002043R19-W\n\nNo. 2, Jalan Temenggung 19/9,\nSeksyen 9, Bandar Mahkota Cheras,\n43200 Cheras, Selangor\nGST REG NO: 001335787520\n\nTax Invoice\n\nINV No. : 784997 Cashier: Nicole\nDate : 29-09-2017 22:19:53\n------------------------------------------------------\nDescription Qty U.price Total TAX\n\nTiger (B)                      6 x          12.00       72.00   SR\n\nGuiness Stout (B) Promotion   6 x         15.40      92.40   SR\n------------------------------------------------------\nTotal QTY: 12\nTotal (Excluding GST): 155.09\nGST payable (6%): 9.31\nTotal (Inclusive of GST): 164.40\nTOTAL: 164.40\n------------------------------------------------------\nCASH : 164.40\n\n------------------------------------------------------\nGST Summary             Amount (RM) Tax(RM)\nSR        (@ 6%)          155.09       9.31"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qIxdks2BhM0sOo3TijmAbucWbIcP",
+    "object": "chat.completion",
+    "created": 1707476633,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1467,
+        "completion_tokens": 332,
+        "total_tokens": 1799
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "SIMPLIFIED TAX INVOICE\nAAA PHARMACY\n1180896-W\nGST NO: 001930047488\n\nNO. 47, JALAN 3/36,\nBUKIT SRI BINTANG,\nKEPONG 52100, KUALA LUMPUR\nTEL: 03-6253 8480 FAX: 03-6253 8480\n\nCASH\n\nRECEIPT # CS00132868 DATE: 27/01/2018\nSALESPERSON: C2 TIME: 12:09:00\nCASHIER: C2\n\nITEM QTY U/P AMOUNT\n730602 4 3.00 12.00 Z\nIBUPROFEN FILM COATED TAB\n95564972002837 4 3.00 12.00 Z\nFERBICOL - RX 10X10'S\n940152 6 3.49 20.94 S\nNOFLU TABLET\n\nTOTAL QUANTITY 14\n\nSUB-TOTAL 44.94\nDISC 0.00\nGST 1.26\nROUNDING 0.00\n\nTOTAL 46.20\nMASTER 46.20\nCHANGE 0.00\n\nGOODS SOLD ARE NOT RETURNABLE,\nTHANK YOU.\nS=STANDARD RATE, Z=ZERO RATED\n\nGST SUMMARY\n\nCODE AMOUNT % TAX/AMT\nSR 20.94 6 1.26\nZRL 24.00 0 0.00\n\nTAX TOTAL: 1.26"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

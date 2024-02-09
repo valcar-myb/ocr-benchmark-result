@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qL9db9dveujCehp6GyUorDRv8TSg",
+    "object": "chat.completion",
+    "created": 1707485065,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1467,
+        "completion_tokens": 280,
+        "total_tokens": 1747
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "TAX INVOICE\nPLATINUM RACKING SDN BHD\n(PLAT MART)\n752173-W\n\n8B, JALAN LUMPUR, OFF JALAN PUTRA, 05100\nALOR SETAR, KEDAH.\nTel: 04-7342316 Fax: 04-7342317 / 7330990\n\n(GST ID No: 001034461184)\n\nSales Date: 22/04/2018\nSales Rep: platinum racking plat mart\nReceipt No: 31076707\nPrint On: 22/04/2018 13:44:23\n\nItem\nCode Item Name Qty Unit Price (RM) Total\n95550 5596 VIVID 2 11.50 23.00\n70731 STOOL - 1 -\n084 BLUE/ORANGE\n\nTotal Qty: 2\n\nTotal Rounding: 0.00\nTotal Sales Inclusive GST 6%: 23.00\n\nCash 100.00\nChange 77.00\nTendered: 100.00\nChange Due: 77.00\n\nCode GST% Amount (RM) Tax (RM)\nSR 6% 21.70 1.30\n\nPlease retain receipt to exchange damage goods within 3 day after sales is made. Thank You"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

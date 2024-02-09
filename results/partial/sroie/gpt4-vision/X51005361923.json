@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qIb4X3KoEHbqx6QXupjHLy26jns6",
+    "object": "chat.completion",
+    "created": 1707475234,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1127,
+        "completion_tokens": 201,
+        "total_tokens": 1328
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "SWC ENTERPRISE SDN BHD\n[(1125830-V)]\n8 & 10, Jalan Ijok Permai 1,\nPusat Niaga Ijok Permai,\n48000 Ijok, Selangor.\n\nTAX INVOICE\n(GST ID No. 000217087834)\n\n02/01/2018\n10:46:55\nCashier: 123\nNo: 0100036262\n\nItem/Desc.      Qty      Price      Amt.\n5X8 500G (1X60)\n5X8 500G       1         4.20          4.20\nTotal Qty :    1\n\nTOTAL AMOUNT\n                     4.20\nCASH             50.20\nCHANGE     46.00\nGST (6% Included In Total)\n                     0.24\nThank You! Please Come Again!\nGoods Sold Only Exchangeable\nWithin 3 Days !"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

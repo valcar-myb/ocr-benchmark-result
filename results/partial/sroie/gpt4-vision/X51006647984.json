@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qLZI8qNob94qR25ud9OSSfgpSyGf",
+    "object": "chat.completion",
+    "created": 1707486656,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1467,
+        "completion_tokens": 373,
+        "total_tokens": 1840
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "**TAX INVOICE**\nKechara Oasis\n\nKechara Vegetarian Restaurant S/B\n(835643-A)\nNo. 72A, Jalan Universiti,\n63687-P1, Block D,\nThe Suite, Jaya One,\n46200, Petaling Jaya, Selangor.\nTel: 03-79681818\nGST ID : (000619970560)\n\n* Receipt *\n\nCheck 21485-00                   15/05/18 13:06\nTable 31           2 Guest(s) Teh Guat Hee\n\nButter Mushrooms (S)                        1  16.80 S\nMix Vegetable Curry (S)                    1  15.80 S\nBrown Rice                                            1    3.00 S\nPlain Water (Hot)                                     1    1.00 S\nLongan Sea Coconut (S (Bar))          1    6.80 S\nSpecial Day Set Lunch                          1  11.90 S\nBak Kut Teh                                          1  11.90 S\nChinese Tea (Hot)                                 1    1.00 S\n\nSub-total                                               55.30\nService Charge                                        5.53\nGST at 6%                                               3.65\n\nTotal                                                   64.50\n\nGST Taxable Amt                               60.83\nGST 6%                                                    3.65\nZero Taxable Amt                                  0.00\n\nStn 01        15/05/18 13:07:00\nPayment 00000003    Check 21485-00\nBill Amt\n\nCash                64.50\n                      0.00\n                    100.00\nChange                                   -35.50\n\nThank You! Please Come Again!"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

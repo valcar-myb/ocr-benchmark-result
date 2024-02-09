@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qLvsEezcn8IG0eiAie2UqnKMcQH9",
+    "object": "chat.completion",
+    "created": 1707488056,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1467,
+        "completion_tokens": 259,
+        "total_tokens": 1726
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "RESTORAN WAN SHENG\n002043319-W\n\nNo. 2, Jalan Temenggung 19/9,\nSeksyen 9, Bandar Mahkota Cheras,\n43200 Cheras, Selangor\nGST REG NO: 001335787520\n\nTax Invoice\n\nINV No.: 1134279 Cashier: Thandar\nDate : 10-05-2018 16:01:18\n\nDescription              Qty       U.price      Total    TAX\nTeh (B)                           2 x              2.20        4.40    SR\nCham (B)                       1 x              2.20        2.20    SR\nTake Away                    3 x              0.20        0.60    SR\n\nTotal QTY: 6\nTotal (Excluding GST);                              6.81\nGST payable (6%):                                    0.39\nTotal (Inclusive of GST):                          7.20\nTOTAL:                                                   7.20\n\nCASH:                                                        7.20\n\nGST Summary\nSR          (at 6%)          Amount (RM)           Tax (RM)\n                                      6.81                    0.39"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

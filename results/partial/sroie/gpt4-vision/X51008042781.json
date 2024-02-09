@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qLw8qm3nd6ycNRrigPSFjYHxD8nA",
+    "object": "chat.completion",
+    "created": 1707488072,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1127,
+        "completion_tokens": 224,
+        "total_tokens": 1351
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "RESTORAN WAN SHENG\n002043319-W\n\nNo.2, Jalan Temenggung 19/9,\nSeksyen 9, Bandar Mahkota Cheras,\n43200 Cheras, Selangor\nGST REG NO: 001335787520\n\nTax Invoice\n\nINV No.: 1136284 Cashier: Nicole\nDate : 11-05-2018 17:12:34\n\nDescription      Qty      U.price      Total TAX\n\nBunga Kekwa      1 x      1.70      1.70 SR\n\nTake Away         1 x      0.20      0.20 SR\n \nTotal QTY: 2\nTotal (Excluding GST):                         1.79\nGST payable (6%):                          0.11\nTotal (Inclusive of GST):                    1.90\nTOTAL:                                           1.90\n\nCASH :                                          1.90\n\nGST Summary\nAmount (RM)                 Tax (RM)\nSR                                    1.79                     0.11"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}
