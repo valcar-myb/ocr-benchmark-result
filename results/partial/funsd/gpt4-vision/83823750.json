@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qigCMPFyplxpsAVRjvm8EmsPZA4k",
+    "object": "chat.completion",
+    "created": 1707575496,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 787,
+        "completion_tokens": 248,
+        "total_tokens": 1035
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "Fax Transmittal\n\n450 Lexington Avenue\nNew York, NY 10017\n212-450-4000\n\nTo\nRobert H. Shaw, Esq.\nDate\nNovember 11, 1997\nCompany\nLorillard Tobacco Company\nFax Number\nVoice Number\n910-335-[redacted]\n910-335-7720\nSender\nCharles Duggan\nNumber of Pages (this page included)\n2\nSender Voice Number\nMain Fax Operator Voice Number\n212-450-4785\nSender Fax Number\nReference\n212-450-5578\n17560-188\n\nMessage:\n\n[The rest of the document appears blank, as there is no visible message content.]\n\nConfidentiality Notice: This facsimile is intended only for the person or entity to which it is addressed and may contain information that is privileged, confidential or otherwise protected from disclosure. Dissemination, distribution or copying of this facsimile or the information herein by anyone other than the intended recipient, or an employee or agent responsible for delivering the message to the intended recipient, is prohibited. If you have received this facsimile in error, please notify us immediately by telephone and return the facsimile by mail."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

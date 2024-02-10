@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-8qikm8pUL6uK04TgsQesYzGMYHPXQ",
+    "object": "chat.completion",
+    "created": 1707575780,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 787,
+        "completion_tokens": 162,
+        "total_tokens": 949
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "TEST ARTICLE RECEIPT\n\nTA #: 70281A\n\nSPONSOR'S NAME: Lorillard\n\nTEST ARTICLE IDENTIFICATION: B220\n\nLOT #: 012590 CONDITION OF SHIPMENT: GOOD - BROKEN SEALS\n\nSHIPPED VIA: Direct Express\n\nPHYSICAL DESCRIPTION: Clear brown liquid\n\nNO. OF CONTAINERS: One\n\nGROSS WEIGHT: Not provided NET WEIGHT (if provided): 100 g\n\nEXPIRATION DATE: Not provided\n\nSPECIAL HANDLING REQUIREMENTS: Store refrigerated in dark.\n\nRECEIVED BY: [Signature] DATE: 03/01/90\n\nSTUDY DIRECTOR/DEPARTMENT: Ray-David\n\nSIGNATURE OF DEPARTMENT CONSIGNEE: [Signature]\n\nDATE: 03/04/90"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}
