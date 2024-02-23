@@ -1,706 +1,2766 @@
 {
-    "language": "en",
-    "text_angle": 0.0,
-    "orientation": "Up",
-    "regions": [
+    "version": "3.2.0",
+    "modelVersion": "2022-04-30",
+    "readResults": [
         {
-            "bounding_box": "102,409,1355,808",
+            "page": 1,
+            "angle": -0.1429,
+            "width": 615.0,
+            "height": 1475.0,
+            "unit": "pixel",
             "lines": [
                 {
-                    "bounding_box": "127,409,1330,95",
+                    "boundingBox": [
+                        42.0,
+                        143.0,
+                        508.0,
+                        140.0,
+                        508.0,
+                        176.0,
+                        42.0,
+                        180.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "handwriting",
+                            "confidence": 0.468
+                        }
+                    },
+                    "text": "SANYO STATIONERY SHOP",
                     "words": [
                         {
-                            "bounding_box": "127,414,350,90",
-                            "text": "SANYO"
+                            "boundingBox": [
+                                44.0,
+                                144.0,
+                                167.0,
+                                142.0,
+                                167.0,
+                                180.0,
+                                43.0,
+                                181.0
+                            ],
+                            "text": "SANYO",
+                            "confidence": 0.687
                         },
                         {
-                            "bounding_box": "501,409,665,94",
-                            "text": "STATIONERY"
+                            "boundingBox": [
+                                175.0,
+                                142.0,
+                                405.0,
+                                141.0,
+                                405.0,
+                                177.0,
+                                174.0,
+                                179.0
+                            ],
+                            "text": "STATIONERY",
+                            "confidence": 0.994
                         },
                         {
-                            "bounding_box": "1182,409,275,92",
-                            "text": "SHOP"
+                            "boundingBox": [
+                                412.0,
+                                141.0,
+                                509.0,
+                                141.0,
+                                509.0,
+                                177.0,
+                                412.0,
+                                177.0
+                            ],
+                            "text": "SHOP",
+                            "confidence": 0.991
                         }
                     ]
                 },
                 {
-                    "bounding_box": "129,539,1300,70",
+                    "boundingBox": [
+                        40.0,
+                        190.0,
+                        502.0,
+                        190.0,
+                        502.0,
+                        214.0,
+                        40.0,
+                        214.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "NO. 31G&33G, JALAN SETIA INDAH X,U13/X",
                     "words": [
                         {
-                            "bounding_box": "129,552,98,48",
-                            "text": "NO."
+                            "boundingBox": [
+                                43.0,
+                                192.0,
+                                80.0,
+                                192.0,
+                                79.0,
+                                214.0,
+                                41.0,
+                                214.0
+                            ],
+                            "text": "NO.",
+                            "confidence": 0.995
                         },
                         {
-                            "bounding_box": "254,551,289,58",
-                            "text": "31G&33G,"
+                            "boundingBox": [
+                                85.0,
+                                192.0,
+                                192.0,
+                                191.0,
+                                190.0,
+                                214.0,
+                                83.0,
+                                214.0
+                            ],
+                            "text": "31G&33G,",
+                            "confidence": 0.993
                         },
                         {
-                            "bounding_box": "567,551,175,48",
-                            "text": "JALAN"
+                            "boundingBox": [
+                                196.0,
+                                191.0,
+                                257.0,
+                                191.0,
+                                256.0,
+                                214.0,
+                                195.0,
+                                214.0
+                            ],
+                            "text": "JALAN",
+                            "confidence": 0.997
                         },
                         {
-                            "bounding_box": "768,539,172,59",
-                            "text": "SETiA"
+                            "boundingBox": [
+                                265.0,
+                                191.0,
+                                327.0,
+                                190.0,
+                                326.0,
+                                214.0,
+                                264.0,
+                                214.0
+                            ],
+                            "text": "SETIA",
+                            "confidence": 0.955
                         },
                         {
-                            "bounding_box": "1179,552,34,45",
-                            "text": "X"
+                            "boundingBox": [
+                                333.0,
+                                190.0,
+                                400.0,
+                                190.0,
+                                399.0,
+                                214.0,
+                                332.0,
+                                214.0
+                            ],
+                            "text": "INDAH",
+                            "confidence": 0.996
                         },
                         {
-                            "bounding_box": "1236,548,193,60",
-                            "text": ",U13/x"
+                            "boundingBox": [
+                                409.0,
+                                190.0,
+                                499.0,
+                                190.0,
+                                499.0,
+                                215.0,
+                                409.0,
+                                214.0
+                            ],
+                            "text": "X,U13/X",
+                            "confidence": 0.905
                         }
                     ]
                 },
                 {
-                    "bounding_box": "126,616,377,49",
+                    "boundingBox": [
+                        41.0,
+                        214.0,
+                        239.0,
+                        213.0,
+                        239.0,
+                        235.0,
+                        41.0,
+                        236.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "40170 SETIA ALAM",
                     "words": [
                         {
-                            "bounding_box": "126,616,181,49",
-                            "text": "40170"
+                            "boundingBox": [
+                                43.0,
+                                215.0,
+                                104.0,
+                                215.0,
+                                104.0,
+                                236.0,
+                                42.0,
+                                236.0
+                            ],
+                            "text": "40170",
+                            "confidence": 0.996
                         },
                         {
-                            "bounding_box": "331,616,172,49",
-                            "text": "SETIA"
+                            "boundingBox": [
+                                111.0,
+                                215.0,
+                                172.0,
+                                214.0,
+                                172.0,
+                                236.0,
+                                111.0,
+                                236.0
+                            ],
+                            "text": "SETIA",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                179.0,
+                                214.0,
+                                231.0,
+                                214.0,
+                                231.0,
+                                236.0,
+                                179.0,
+                                236.0
+                            ],
+                            "text": "ALAM",
+                            "confidence": 0.991
                         }
                     ]
                 },
                 {
-                    "bounding_box": "131,691,1089,65",
+                    "boundingBox": [
+                        42.0,
+                        240.0,
+                        426.0,
+                        238.0,
+                        427.0,
+                        263.0,
+                        42.0,
+                        266.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Mobile /Whatsapps : +6012-918 7937",
                     "words": [
                         {
-                            "bounding_box": "131,691,179,52",
-                            "text": "Mobile"
+                            "boundingBox": [
+                                43.0,
+                                242.0,
+                                108.0,
+                                242.0,
+                                107.0,
+                                265.0,
+                                42.0,
+                                263.0
+                            ],
+                            "text": "Mobile",
+                            "confidence": 0.994
                         },
                         {
-                            "bounding_box": "329,691,341,65",
-                            "text": "/VVhatsapps"
+                            "boundingBox": [
+                                113.0,
+                                242.0,
+                                235.0,
+                                242.0,
+                                234.0,
+                                265.0,
+                                112.0,
+                                265.0
+                            ],
+                            "text": "/Whatsapps",
+                            "confidence": 0.992
                         },
                         {
-                            "bounding_box": "696,704,11,37",
-                            "text": ":"
+                            "boundingBox": [
+                                239.0,
+                                242.0,
+                                251.0,
+                                241.0,
+                                251.0,
+                                265.0,
+                                239.0,
+                                265.0
+                            ],
+                            "text": ":",
+                            "confidence": 0.995
                         },
                         {
-                            "bounding_box": "734,691,322,49",
-                            "text": "+6012-913"
+                            "boundingBox": [
+                                256.0,
+                                241.0,
+                                367.0,
+                                240.0,
+                                366.0,
+                                264.0,
+                                255.0,
+                                265.0
+                            ],
+                            "text": "+6012-918",
+                            "confidence": 0.993
                         },
                         {
-                            "bounding_box": "1082,693,138,48",
-                            "text": "7937"
+                            "boundingBox": [
+                                375.0,
+                                240.0,
+                                426.0,
+                                239.0,
+                                426.0,
+                                263.0,
+                                374.0,
+                                264.0
+                            ],
+                            "text": "7937",
+                            "confidence": 0.991
                         }
                     ]
                 },
                 {
-                    "bounding_box": "125,779,617,52",
+                    "boundingBox": [
+                        41.0,
+                        273.0,
+                        259.0,
+                        271.0,
+                        259.0,
+                        293.0,
+                        41.0,
+                        295.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Tel: +603-3362 4137",
                     "words": [
                         {
-                            "bounding_box": "125,779,104,52",
-                            "text": "Te::"
+                            "boundingBox": [
+                                44.0,
+                                273.0,
+                                84.0,
+                                273.0,
+                                83.0,
+                                295.0,
+                                43.0,
+                                295.0
+                            ],
+                            "text": "Tel:",
+                            "confidence": 0.991
                         },
                         {
-                            "bounding_box": "256,781,322,50",
-                            "text": "+603-3362"
+                            "boundingBox": [
+                                88.0,
+                                273.0,
+                                199.0,
+                                272.0,
+                                199.0,
+                                294.0,
+                                87.0,
+                                295.0
+                            ],
+                            "text": "+603-3362",
+                            "confidence": 0.993
                         },
                         {
-                            "bounding_box": "600,780,142,51",
-                            "text": "4137"
+                            "boundingBox": [
+                                206.0,
+                                272.0,
+                                258.0,
+                                272.0,
+                                258.0,
+                                294.0,
+                                205.0,
+                                294.0
+                            ],
+                            "text": "4137",
+                            "confidence": 0.989
                         }
                     ]
                 },
                 {
-                    "bounding_box": "129,855,781,52",
+                    "boundingBox": [
+                        43.0,
+                        299.0,
+                        318.0,
+                        298.0,
+                        318.0,
+                        319.0,
+                        43.0,
+                        321.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "GST ID No: 001531760640",
                     "words": [
                         {
-                            "bounding_box": "129,858,114,49",
-                            "text": "GST"
+                            "boundingBox": [
+                                44.0,
+                                301.0,
+                                82.0,
+                                300.0,
+                                82.0,
+                                321.0,
+                                44.0,
+                                322.0
+                            ],
+                            "text": "GST",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "265,858,67,49",
-                            "text": "ID"
+                            "boundingBox": [
+                                88.0,
+                                300.0,
+                                111.0,
+                                299.0,
+                                111.0,
+                                321.0,
+                                88.0,
+                                321.0
+                            ],
+                            "text": "ID",
+                            "confidence": 0.992
                         },
                         {
-                            "bounding_box": "357,859,90,48",
-                            "text": "No:"
+                            "boundingBox": [
+                                120.0,
+                                299.0,
+                                160.0,
+                                299.0,
+                                160.0,
+                                320.0,
+                                120.0,
+                                321.0
+                            ],
+                            "text": "No:",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "483,855,427,52",
-                            "text": "001531760+40"
+                            "boundingBox": [
+                                165.0,
+                                299.0,
+                                316.0,
+                                299.0,
+                                316.0,
+                                320.0,
+                                164.0,
+                                320.0
+                            ],
+                            "text": "001531760640",
+                            "confidence": 0.992
                         }
                     ]
                 },
                 {
-                    "bounding_box": "1176,887,158,62",
+                    "boundingBox": [
+                        34.0,
+                        330.0,
+                        137.0,
+                        331.0,
+                        137.0,
+                        351.0,
+                        34.0,
+                        350.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Owned By :",
                     "words": [
                         {
-                            "bounding_box": "1176,887,158,62",
-                            "text": "TAX"
+                            "boundingBox": [
+                                35.0,
+                                331.0,
+                                92.0,
+                                331.0,
+                                92.0,
+                                351.0,
+                                35.0,
+                                350.0
+                            ],
+                            "text": "Owned",
+                            "confidence": 0.997
+                        },
+                        {
+                            "boundingBox": [
+                                99.0,
+                                331.0,
+                                123.0,
+                                332.0,
+                                123.0,
+                                351.0,
+                                99.0,
+                                351.0
+                            ],
+                            "text": "By",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                127.0,
+                                332.0,
+                                138.0,
+                                332.0,
+                                138.0,
+                                351.0,
+                                127.0,
+                                351.0
+                            ],
+                            "text": ":",
+                            "confidence": 0.991
                         }
                     ]
                 },
                 {
-                    "bounding_box": "102,943,254,57",
+                    "boundingBox": [
+                        410.0,
+                        310.0,
+                        590.0,
+                        309.0,
+                        590.0,
+                        334.0,
+                        410.0,
+                        335.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "TAX INVOICE",
                     "words": [
                         {
-                            "bounding_box": "102,944,50,45",
-                            "text": "C)'"
+                            "boundingBox": [
+                                412.0,
+                                310.0,
+                                459.0,
+                                310.0,
+                                458.0,
+                                335.0,
+                                411.0,
+                                336.0
+                            ],
+                            "text": "TAX",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "156,943,119,46",
-                            "text": "\u2022led"
-                        },
-                        {
-                            "bounding_box": "291,944,65,56",
-                            "text": "By"
+                            "boundingBox": [
+                                471.0,
+                                310.0,
+                                585.0,
+                                310.0,
+                                586.0,
+                                335.0,
+                                470.0,
+                                335.0
+                            ],
+                            "text": "INVOICE",
+                            "confidence": 0.993
                         }
                     ]
                 },
                 {
-                    "bounding_box": "102,1008,963,57",
+                    "boundingBox": [
+                        32.0,
+                        352.0,
+                        374.0,
+                        352.0,
+                        374.0,
+                        374.0,
+                        32.0,
+                        374.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "SANYU SUPPLY SDN BHD (1135772-K)",
                     "words": [
                         {
-                            "bounding_box": "102,1012,179,45",
-                            "text": "sayyu"
+                            "boundingBox": [
+                                33.0,
+                                354.0,
+                                95.0,
+                                353.0,
+                                94.0,
+                                374.0,
+                                33.0,
+                                374.0
+                            ],
+                            "text": "SANYU",
+                            "confidence": 0.997
                         },
                         {
-                            "bounding_box": "299,1011,204,46",
-                            "text": "SUPPLY"
+                            "boundingBox": [
+                                101.0,
+                                353.0,
+                                174.0,
+                                352.0,
+                                173.0,
+                                374.0,
+                                100.0,
+                                374.0
+                            ],
+                            "text": "SUPPLY",
+                            "confidence": 0.997
                         },
                         {
-                            "bounding_box": "522,1011,107,45",
-                            "text": "SON"
+                            "boundingBox": [
+                                178.0,
+                                352.0,
+                                216.0,
+                                352.0,
+                                216.0,
+                                374.0,
+                                178.0,
+                                374.0
+                            ],
+                            "text": "SDN",
+                            "confidence": 0.933
                         },
                         {
-                            "bounding_box": "775,1008,290,57",
-                            "text": "(fi35772.K)"
+                            "boundingBox": [
+                                224.0,
+                                352.0,
+                                261.0,
+                                352.0,
+                                261.0,
+                                374.0,
+                                223.0,
+                                374.0
+                            ],
+                            "text": "BHD",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                267.0,
+                                352.0,
+                                375.0,
+                                353.0,
+                                375.0,
+                                374.0,
+                                267.0,
+                                374.0
+                            ],
+                            "text": "(1135772-K)",
+                            "confidence": 0.963
                         }
                     ]
                 },
                 {
-                    "bounding_box": "115,1160,733,57",
-                    "words": [
-                        {
-                            "bounding_box": "115,1162,175,55",
-                            "text": "CASH"
-                        },
-                        {
-                            "bounding_box": "315,1162,206,54",
-                            "text": "SALES"
-                        },
-                        {
-                            "bounding_box": "543,1160,305,55",
-                            "text": "COUNTER"
+                    "boundingBox": [
+                        36.0,
+                        406.0,
+                        298.0,
+                        405.0,
+                        298.0,
+                        428.0,
+                        36.0,
+                        430.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "158,1344,386,216",
-            "lines": [
-                {
-                    "bounding_box": "158,1344,381,50",
+                    },
+                    "text": "CASH SALES COUNTER",
                     "words": [
                         {
-                            "bounding_box": "158,1348,45,46",
-                            "text": "1."
+                            "boundingBox": [
+                                38.0,
+                                407.0,
+                                97.0,
+                                407.0,
+                                96.0,
+                                430.0,
+                                37.0,
+                                431.0
+                            ],
+                            "text": "CASH",
+                            "confidence": 0.991
                         },
                         {
-                            "bounding_box": "231,1344,308,50",
-                            "text": "2012-0029"
-                        }
-                    ]
-                },
-                {
-                    "bounding_box": "233,1510,311,50",
-                    "words": [
-                        {
-                            "bounding_box": "233,1512,29,48",
-                            "text": "3"
+                            "boundingBox": [
+                                105.0,
+                                407.0,
+                                178.0,
+                                406.0,
+                                178.0,
+                                429.0,
+                                104.0,
+                                430.0
+                            ],
+                            "text": "SALES",
+                            "confidence": 0.997
                         },
                         {
-                            "bounding_box": "287,1511,36,49",
-                            "text": "x"
-                        },
-                        {
-                            "bounding_box": "346,1510,198,50",
-                            "text": "2.9000"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "783,1342,379,50",
-            "lines": [
-                {
-                    "bounding_box": "783,1342,379,50",
-                    "words": [
-                        {
-                            "bounding_box": "783,1342,379,50",
-                            "text": "RESTAWFVAUT"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "85,1608,889,58",
-            "lines": [
-                {
-                    "bounding_box": "85,1608,889,58",
-                    "words": [
-                        {
-                            "bounding_box": "85,1609,142,52",
-                            "text": "Total"
-                        },
-                        {
-                            "bounding_box": "249,1611,146,49",
-                            "text": "Sales"
-                        },
-                        {
-                            "bounding_box": "417,1608,248,52",
-                            "text": "Inclusive"
-                        },
-                        {
-                            "bounding_box": "686,1609,113,49",
-                            "text": "GST"
-                        },
-                        {
-                            "bounding_box": "821,1608,153,58",
-                            "text": "060/0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "94,2399,402,143",
-            "lines": [
-                {
-                    "bounding_box": "94,2399,402,60",
-                    "words": [
-                        {
-                            "bounding_box": "94,2399,113,48",
-                            "text": "GSi"
-                        },
-                        {
-                            "bounding_box": "230,2399,266,60",
-                            "text": "Sumtnary"
+                            "boundingBox": [
+                                185.0,
+                                406.0,
+                                292.0,
+                                405.0,
+                                292.0,
+                                429.0,
+                                184.0,
+                                429.0
+                            ],
+                            "text": "COUNTER",
+                            "confidence": 0.997
                         }
                     ]
                 },
                 {
-                    "bounding_box": "96,2484,269,58",
+                    "boundingBox": [
+                        52.0,
+                        471.0,
+                        188.0,
+                        470.0,
+                        188.0,
+                        491.0,
+                        52.0,
+                        493.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "1. 2012-0029",
                     "words": [
                         {
-                            "bounding_box": "96,2485,73,48",
-                            "text": "SR"
+                            "boundingBox": [
+                                52.0,
+                                472.0,
+                                73.0,
+                                472.0,
+                                73.0,
+                                493.0,
+                                52.0,
+                                494.0
+                            ],
+                            "text": "1.",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "191,2485,56,57",
-                            "text": "@"
-                        },
-                        {
-                            "bounding_box": "271,2484,94,49",
-                            "text": "6%"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "691,1697,413,833",
-            "lines": [
-                {
-                    "bounding_box": "697,1697,242,49",
-                    "words": [
-                        {
-                            "bounding_box": "697,1697,242,49",
-                            "text": "Discount"
-                        }
-                    ]
-                },
-                {
-                    "bounding_box": "691,1812,142,50",
-                    "words": [
-                        {
-                            "bounding_box": "691,1812,142,50",
-                            "text": "Total"
-                        }
-                    ]
-                },
-                {
-                    "bounding_box": "698,1898,290,63",
-                    "words": [
-                        {
-                            "bounding_box": "698,1898,178,51",
-                            "text": "Round"
-                        },
-                        {
-                            "bounding_box": "897,1898,91,63",
-                            "text": "Adj"
+                            "boundingBox": [
+                                77.0,
+                                471.0,
+                                188.0,
+                                470.0,
+                                188.0,
+                                492.0,
+                                77.0,
+                                493.0
+                            ],
+                            "text": "2012-0029",
+                            "confidence": 0.993
                         }
                     ]
                 },
                 {
-                    "bounding_box": "699,2015,287,52",
+                    "boundingBox": [
+                        270.0,
+                        468.0,
+                        593.0,
+                        468.0,
+                        593.0,
+                        491.0,
+                        270.0,
+                        492.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "RESTAURANT ORDER CHIT NCR",
                     "words": [
                         {
-                            "bounding_box": "699,2017,127,50",
-                            "text": "Final"
+                            "boundingBox": [
+                                272.0,
+                                471.0,
+                                406.0,
+                                468.0,
+                                406.0,
+                                491.0,
+                                271.0,
+                                492.0
+                            ],
+                            "text": "RESTAURANT",
+                            "confidence": 0.994
                         },
                         {
-                            "bounding_box": "844,2015,142,52",
-                            "text": "Total"
+                            "boundingBox": [
+                                411.0,
+                                468.0,
+                                482.0,
+                                468.0,
+                                482.0,
+                                491.0,
+                                411.0,
+                                491.0
+                            ],
+                            "text": "ORDER",
+                            "confidence": 0.997
+                        },
+                        {
+                            "boundingBox": [
+                                490.0,
+                                468.0,
+                                543.0,
+                                469.0,
+                                543.0,
+                                491.0,
+                                489.0,
+                                491.0
+                            ],
+                            "text": "CHIT",
+                            "confidence": 0.987
+                        },
+                        {
+                            "boundingBox": [
+                                548.0,
+                                469.0,
+                                590.0,
+                                469.0,
+                                590.0,
+                                492.0,
+                                548.0,
+                                491.0
+                            ],
+                            "text": "NCR",
+                            "confidence": 0.993
                         }
                     ]
                 },
                 {
-                    "bounding_box": "698,2185,155,50",
+                    "boundingBox": [
+                        270.0,
+                        496.0,
+                        344.0,
+                        496.0,
+                        345.0,
+                        517.0,
+                        270.0,
+                        517.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "3.5\"x6\"",
                     "words": [
                         {
-                            "bounding_box": "698,2185,155,50",
-                            "text": "CASH"
+                            "boundingBox": [
+                                271.0,
+                                497.0,
+                                344.0,
+                                496.0,
+                                345.0,
+                                518.0,
+                                271.0,
+                                518.0
+                            ],
+                            "text": "3.5\"x6\"",
+                            "confidence": 0.801
                         }
                     ]
                 },
                 {
-                    "bounding_box": "699,2273,239,50",
+                    "boundingBox": [
+                        78.0,
+                        529.0,
+                        190.0,
+                        527.0,
+                        191.0,
+                        549.0,
+                        78.0,
+                        550.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "3 X 2.9000",
                     "words": [
                         {
-                            "bounding_box": "699,2273,239,50",
-                            "text": "CHANGE"
+                            "boundingBox": [
+                                79.0,
+                                529.0,
+                                91.0,
+                                529.0,
+                                91.0,
+                                551.0,
+                                79.0,
+                                551.0
+                            ],
+                            "text": "3",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                95.0,
+                                529.0,
+                                107.0,
+                                529.0,
+                                108.0,
+                                550.0,
+                                95.0,
+                                550.0
+                            ],
+                            "text": "X",
+                            "confidence": 0.614
+                        },
+                        {
+                            "boundingBox": [
+                                118.0,
+                                529.0,
+                                187.0,
+                                528.0,
+                                187.0,
+                                549.0,
+                                118.0,
+                                550.0
+                            ],
+                            "text": "2.9000",
+                            "confidence": 0.996
                         }
                     ]
                 },
                 {
-                    "bounding_box": "743,2393,361,63",
+                    "boundingBox": [
+                        479.0,
+                        529.0,
+                        528.0,
+                        528.0,
+                        528.0,
+                        549.0,
+                        479.0,
+                        549.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "8.70",
                     "words": [
                         {
-                            "bounding_box": "743,2393,361,63",
-                            "text": "Amount(RM)"
+                            "boundingBox": [
+                                479.0,
+                                528.0,
+                                523.0,
+                                528.0,
+                                523.0,
+                                549.0,
+                                479.0,
+                                549.0
+                            ],
+                            "text": "8.70",
+                            "confidence": 0.98
                         }
                     ]
                 },
                 {
-                    "bounding_box": "981,2481,123,49",
-                    "words": [
-                        {
-                            "bounding_box": "981,2481,123,49",
-                            "text": "8.21"
+                    "boundingBox": [
+                        552.0,
+                        529.0,
+                        582.0,
+                        529.0,
+                        581.0,
+                        547.0,
+                        552.0,
+                        546.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "1361,1614,264,916",
-            "lines": [
-                {
-                    "bounding_box": "1378,1614,125,49",
+                    },
+                    "text": "SR",
                     "words": [
                         {
-                            "bounding_box": "1378,1614,49,49",
-                            "text": "S."
-                        },
-                        {
-                            "bounding_box": "1435,1614,68,48",
-                            "text": "70"
-                        }
-                    ]
-                },
-                {
-                    "bounding_box": "1384,1819,126,48",
-                    "words": [
-                        {
-                            "bounding_box": "1384,1819,126,48",
-                            "text": "8.70"
-                        }
-                    ]
-                },
-                {
-                    "bounding_box": "1385,1905,126,49",
-                    "words": [
-                        {
-                            "bounding_box": "1385,1905,126,49",
-                            "text": "0.00"
+                            "boundingBox": [
+                                553.0,
+                                529.0,
+                                578.0,
+                                529.0,
+                                577.0,
+                                547.0,
+                                553.0,
+                                546.0
+                            ],
+                            "text": "SR",
+                            "confidence": 0.995
                         }
                     ]
                 },
                 {
-                    "bounding_box": "1386,2023,126,50",
+                    "boundingBox": [
+                        26.0,
+                        563.0,
+                        340.0,
+                        563.0,
+                        340.0,
+                        586.0,
+                        26.0,
+                        586.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Total Sales Inclusive GST @6%",
                     "words": [
                         {
-                            "bounding_box": "1386,2023,126,50",
-                            "text": "s.70"
+                            "boundingBox": [
+                                28.0,
+                                563.0,
+                                77.0,
+                                564.0,
+                                77.0,
+                                587.0,
+                                28.0,
+                                586.0
+                            ],
+                            "text": "Total",
+                            "confidence": 0.997
+                        },
+                        {
+                            "boundingBox": [
+                                82.0,
+                                564.0,
+                                137.0,
+                                564.0,
+                                137.0,
+                                587.0,
+                                82.0,
+                                587.0
+                            ],
+                            "text": "Sales",
+                            "confidence": 0.997
+                        },
+                        {
+                            "boundingBox": [
+                                141.0,
+                                564.0,
+                                232.0,
+                                564.0,
+                                232.0,
+                                587.0,
+                                141.0,
+                                587.0
+                            ],
+                            "text": "Inclusive",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                237.0,
+                                564.0,
+                                278.0,
+                                564.0,
+                                278.0,
+                                587.0,
+                                236.0,
+                                587.0
+                            ],
+                            "text": "GST",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                290.0,
+                                564.0,
+                                339.0,
+                                564.0,
+                                339.0,
+                                587.0,
+                                290.0,
+                                587.0
+                            ],
+                            "text": "@6%",
+                            "confidence": 0.998
                         }
                     ]
                 },
                 {
-                    "bounding_box": "1361,2191,156,49",
+                    "boundingBox": [
+                        479.0,
+                        566.0,
+                        524.0,
+                        566.0,
+                        525.0,
+                        585.0,
+                        479.0,
+                        586.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "8.70",
                     "words": [
                         {
-                            "bounding_box": "1361,2191,156,49",
-                            "text": "10.00"
+                            "boundingBox": [
+                                479.0,
+                                566.0,
+                                522.0,
+                                566.0,
+                                522.0,
+                                586.0,
+                                479.0,
+                                586.0
+                            ],
+                            "text": "8.70",
+                            "confidence": 0.982
                         }
                     ]
                 },
                 {
-                    "bounding_box": "1499,2481,126,49",
-                    "words": [
-                        {
-                            "bounding_box": "1499,2481,126,49",
-                            "text": "0.49"
+                    "boundingBox": [
+                        241.0,
+                        595.0,
+                        330.0,
+                        595.0,
+                        330.0,
+                        615.0,
+                        241.0,
+                        615.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "97,2705,731,52",
-            "lines": [
-                {
-                    "bounding_box": "97,2705,731,52",
+                    },
+                    "text": "Discount",
                     "words": [
                         {
-                            "bounding_box": "97,2708,104,48",
-                            "text": "INV"
-                        },
-                        {
-                            "bounding_box": "226,2708,102,49",
-                            "text": "NO:"
-                        },
-                        {
-                            "bounding_box": "385,2705,443,50",
-                            "text": "CS-SA-0079035"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "926,2703,562,61",
-            "lines": [
-                {
-                    "bounding_box": "926,2703,562,61",
-                    "words": [
-                        {
-                            "bounding_box": "926,2705,168,49",
-                            "text": "Date:"
-                        },
-                        {
-                            "bounding_box": "1155,2703,333,61",
-                            "text": "27/03/2017"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "169,3115,1521,925",
-            "lines": [
-                {
-                    "bounding_box": "208,3115,1431,55",
-                    "words": [
-                        {
-                            "bounding_box": "208,3120,203,50",
-                            "text": "Goods"
-                        },
-                        {
-                            "bounding_box": "431,3119,127,51",
-                            "text": "soid"
-                        },
-                        {
-                            "bounding_box": "577,3133,100,36",
-                            "text": "are"
-                        },
-                        {
-                            "bounding_box": "700,3123,104,46",
-                            "text": "not"
-                        },
-                        {
-                            "bounding_box": "824,3117,358,51",
-                            "text": "Returnable"
-                        },
-                        {
-                            "bounding_box": "1201,3117,48,50",
-                            "text": "&"
-                        },
-                        {
-                            "bounding_box": "1271,3115,368,52",
-                            "text": "Refundable"
+                            "boundingBox": [
+                                241.0,
+                                596.0,
+                                330.0,
+                                596.0,
+                                330.0,
+                                615.0,
+                                241.0,
+                                616.0
+                            ],
+                            "text": "Discount",
+                            "confidence": 0.991
                         }
                     ]
                 },
                 {
-                    "bounding_box": "344,3264,1160,48",
+                    "boundingBox": [
+                        480.0,
+                        598.0,
+                        525.0,
+                        597.0,
+                        526.0,
+                        616.0,
+                        480.0,
+                        617.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "0.00",
                     "words": [
                         {
-                            "bounding_box": "344,3267,229,45",
-                            "text": "THANK"
-                        },
-                        {
-                            "bounding_box": "591,3266,139,45",
-                            "text": "YOU"
-                        },
-                        {
-                            "bounding_box": "752,3265,127,44",
-                            "text": "FOR"
-                        },
-                        {
-                            "bounding_box": "897,3264,185,45",
-                            "text": "YOUR"
-                        },
-                        {
-                            "bounding_box": "1103,3264,401,45",
-                            "text": "PATRONAGE"
+                            "boundingBox": [
+                                480.0,
+                                597.0,
+                                523.0,
+                                597.0,
+                                523.0,
+                                616.0,
+                                480.0,
+                                617.0
+                            ],
+                            "text": "0.00",
+                            "confidence": 0.994
                         }
                     ]
                 },
                 {
-                    "bounding_box": "580,3348,694,49",
+                    "boundingBox": [
+                        240.0,
+                        636.0,
+                        292.0,
+                        637.0,
+                        292.0,
+                        656.0,
+                        240.0,
+                        655.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Total",
                     "words": [
                         {
-                            "bounding_box": "580,3350,230,47",
-                            "text": "PLEASE"
-                        },
-                        {
-                            "bounding_box": "832,3348,194,48",
-                            "text": "COME"
-                        },
-                        {
-                            "bounding_box": "1044,3349,230,48",
-                            "text": "AGAIN."
+                            "boundingBox": [
+                                241.0,
+                                636.0,
+                                292.0,
+                                637.0,
+                                292.0,
+                                656.0,
+                                241.0,
+                                655.0
+                            ],
+                            "text": "Total",
+                            "confidence": 0.997
                         }
                     ]
                 },
                 {
-                    "bounding_box": "356,3500,1136,51",
+                    "boundingBox": [
+                        480.0,
+                        638.0,
+                        527.0,
+                        638.0,
+                        527.0,
+                        657.0,
+                        480.0,
+                        658.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "8.70",
                     "words": [
                         {
-                            "bounding_box": "356,3502,257,49",
-                            "text": "TERIMA"
-                        },
-                        {
-                            "bounding_box": "634,3501,185,49",
-                            "text": "KASIH"
-                        },
-                        {
-                            "bounding_box": "891,3500,133,48",
-                            "text": "SILA"
-                        },
-                        {
-                            "bounding_box": "1049,3500,275,48",
-                            "text": "DATANG"
-                        },
-                        {
-                            "bounding_box": "1350,3500,142,47",
-                            "text": "LAG}"
+                            "boundingBox": [
+                                481.0,
+                                638.0,
+                                524.0,
+                                638.0,
+                                525.0,
+                                658.0,
+                                481.0,
+                                658.0
+                            ],
+                            "text": "8.70",
+                            "confidence": 0.985
                         }
                     ]
                 },
                 {
-                    "bounding_box": "306,3649,1336,51",
+                    "boundingBox": [
+                        240.0,
+                        665.0,
+                        347.0,
+                        666.0,
+                        346.0,
+                        689.0,
+                        240.0,
+                        688.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Round Adj",
                     "words": [
                         {
-                            "bounding_box": "306,3651,230,49",
-                            "text": "PLEASE"
+                            "boundingBox": [
+                                241.0,
+                                666.0,
+                                306.0,
+                                666.0,
+                                305.0,
+                                689.0,
+                                241.0,
+                                689.0
+                            ],
+                            "text": "Round",
+                            "confidence": 0.994
                         },
                         {
-                            "bounding_box": "560,3651,154,48",
-                            "text": "KEEP"
-                        },
-                        {
-                            "bounding_box": "728,3649,146,49",
-                            "text": "THIS"
-                        },
-                        {
-                            "bounding_box": "895,3649,259,49",
-                            "text": "RECEIPT"
-                        },
-                        {
-                            "bounding_box": "1173,3649,126,49",
-                            "text": "FOR"
-                        },
-                        {
-                            "bounding_box": "1322,3649,218,49",
-                            "text": "PROVE"
-                        },
-                        {
-                            "bounding_box": "1559,3649,83,47",
-                            "text": "OF"
+                            "boundingBox": [
+                                311.0,
+                                666.0,
+                                347.0,
+                                667.0,
+                                347.0,
+                                690.0,
+                                310.0,
+                                689.0
+                            ],
+                            "text": "Adj",
+                            "confidence": 0.998
                         }
                     ]
                 },
                 {
-                    "bounding_box": "169,3738,1521,53",
+                    "boundingBox": [
+                        481.0,
+                        669.0,
+                        528.0,
+                        669.0,
+                        527.0,
+                        688.0,
+                        481.0,
+                        687.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "0.00",
                     "words": [
                         {
-                            "bounding_box": "169,3741,345,50",
-                            "text": "PURCHASE"
-                        },
-                        {
-                            "bounding_box": "538,3740,167,49",
-                            "text": "DATE"
-                        },
-                        {
-                            "bounding_box": "726,3740,127,49",
-                            "text": "FOR"
-                        },
-                        {
-                            "bounding_box": "887,3739,71,49",
-                            "text": "I.T"
-                        },
-                        {
-                            "bounding_box": "979,3738,318,49",
-                            "text": "PRODUCT"
-                        },
-                        {
-                            "bounding_box": "1315,3739,375,48",
-                            "text": "WARRANTY"
+                            "boundingBox": [
+                                481.0,
+                                669.0,
+                                525.0,
+                                669.0,
+                                524.0,
+                                688.0,
+                                481.0,
+                                687.0
+                            ],
+                            "text": "0.00",
+                            "confidence": 0.991
                         }
                     ]
                 },
                 {
-                    "bounding_box": "727,3833,300,47",
+                    "boundingBox": [
+                        240.0,
+                        707.0,
+                        345.0,
+                        708.0,
+                        345.0,
+                        729.0,
+                        240.0,
+                        728.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Final Total",
                     "words": [
                         {
-                            "bounding_box": "727,3833,300,47",
-                            "text": "PURPOSE"
+                            "boundingBox": [
+                                241.0,
+                                708.0,
+                                291.0,
+                                708.0,
+                                290.0,
+                                729.0,
+                                241.0,
+                                729.0
+                            ],
+                            "text": "Final",
+                            "confidence": 0.66
+                        },
+                        {
+                            "boundingBox": [
+                                295.0,
+                                708.0,
+                                345.0,
+                                708.0,
+                                345.0,
+                                729.0,
+                                295.0,
+                                729.0
+                            ],
+                            "text": "Total",
+                            "confidence": 0.998
                         }
                     ]
                 },
                 {
-                    "bounding_box": "280,3975,1305,65",
+                    "boundingBox": [
+                        483.0,
+                        710.0,
+                        527.0,
+                        711.0,
+                        527.0,
+                        730.0,
+                        483.0,
+                        730.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "8.70",
                     "words": [
                         {
-                            "bounding_box": "280,3978,212,52",
-                            "text": "Follow"
+                            "boundingBox": [
+                                483.0,
+                                710.0,
+                                526.0,
+                                710.0,
+                                526.0,
+                                730.0,
+                                483.0,
+                                729.0
+                            ],
+                            "text": "8.70",
+                            "confidence": 0.991
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        242.0,
+                        767.0,
+                        300.0,
+                        767.0,
+                        300.0,
+                        787.0,
+                        242.0,
+                        787.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "CASH",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                243.0,
+                                768.0,
+                                291.0,
+                                767.0,
+                                291.0,
+                                788.0,
+                                243.0,
+                                787.0
+                            ],
+                            "text": "CASH",
+                            "confidence": 0.989
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        473.0,
+                        770.0,
+                        530.0,
+                        769.0,
+                        530.0,
+                        789.0,
+                        473.0,
+                        789.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "10.00",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                473.0,
+                                771.0,
+                                526.0,
+                                770.0,
+                                526.0,
+                                790.0,
+                                473.0,
+                                790.0
+                            ],
+                            "text": "10.00",
+                            "confidence": 0.994
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        243.0,
+                        798.0,
+                        328.0,
+                        797.0,
+                        328.0,
+                        818.0,
+                        243.0,
+                        819.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "CHANGE",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                243.0,
+                                799.0,
+                                326.0,
+                                797.0,
+                                326.0,
+                                819.0,
+                                243.0,
+                                819.0
+                            ],
+                            "text": "CHANGE",
+                            "confidence": 0.996
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        485.0,
+                        800.0,
+                        529.0,
+                        801.0,
+                        529.0,
+                        819.0,
+                        485.0,
+                        819.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "1.30",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                485.0,
+                                800.0,
+                                525.0,
+                                800.0,
+                                525.0,
+                                819.0,
+                                485.0,
+                                818.0
+                            ],
+                            "text": "1.30",
+                            "confidence": 0.992
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        30.0,
+                        842.0,
+                        172.0,
+                        843.0,
+                        172.0,
+                        865.0,
+                        30.0,
+                        863.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "GST Summary",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                31.0,
+                                843.0,
+                                70.0,
+                                843.0,
+                                70.0,
+                                864.0,
+                                30.0,
+                                863.0
+                            ],
+                            "text": "GST",
+                            "confidence": 0.992
                         },
                         {
-                            "bounding_box": "513,3990,66,38",
-                            "text": "us"
+                            "boundingBox": [
+                                76.0,
+                                843.0,
+                                173.0,
+                                844.0,
+                                173.0,
+                                866.0,
+                                75.0,
+                                864.0
+                            ],
+                            "text": "Summary",
+                            "confidence": 0.995
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        258.0,
+                        840.0,
+                        387.0,
+                        840.0,
+                        387.0,
+                        864.0,
+                        258.0,
+                        863.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Amount(RM)",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                259.0,
+                                841.0,
+                                387.0,
+                                841.0,
+                                387.0,
+                                865.0,
+                                258.0,
+                                863.0
+                            ],
+                            "text": "Amount(RM)",
+                            "confidence": 0.993
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        480.0,
+                        840.0,
+                        568.0,
+                        840.0,
+                        568.0,
+                        862.0,
+                        480.0,
+                        863.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Tax(RM)",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                483.0,
+                                840.0,
+                                569.0,
+                                841.0,
+                                568.0,
+                                863.0,
+                                482.0,
+                                864.0
+                            ],
+                            "text": "Tax(RM)",
+                            "confidence": 0.993
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        29.0,
+                        870.0,
+                        128.0,
+                        870.0,
+                        128.0,
+                        895.0,
+                        29.0,
+                        895.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "SR @ 6%",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                31.0,
+                                871.0,
+                                57.0,
+                                871.0,
+                                56.0,
+                                896.0,
+                                30.0,
+                                896.0
+                            ],
+                            "text": "SR",
+                            "confidence": 0.995
                         },
                         {
-                            "bounding_box": "595,3977,55,51",
-                            "text": "in"
+                            "boundingBox": [
+                                68.0,
+                                871.0,
+                                82.0,
+                                872.0,
+                                82.0,
+                                896.0,
+                                68.0,
+                                896.0
+                            ],
+                            "text": "@",
+                            "confidence": 0.997
                         },
                         {
-                            "bounding_box": "674,3975,306,53",
-                            "text": "Facebook"
+                            "boundingBox": [
+                                91.0,
+                                872.0,
+                                127.0,
+                                872.0,
+                                126.0,
+                                895.0,
+                                90.0,
+                                895.0
+                            ],
+                            "text": "6%",
+                            "confidence": 0.992
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        342.0,
+                        871.0,
+                        385.0,
+                        871.0,
+                        386.0,
+                        891.0,
+                        341.0,
+                        891.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "8.21",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                341.0,
+                                871.0,
+                                385.0,
+                                871.0,
+                                385.0,
+                                891.0,
+                                341.0,
+                                891.0
+                            ],
+                            "text": "8.21",
+                            "confidence": 0.991
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        522.0,
+                        870.0,
+                        569.0,
+                        869.0,
+                        568.0,
+                        891.0,
+                        522.0,
+                        892.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "0.49",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                522.0,
+                                870.0,
+                                566.0,
+                                869.0,
+                                567.0,
+                                891.0,
+                                522.0,
+                                892.0
+                            ],
+                            "text": "0.49",
+                            "confidence": 0.991
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        29.0,
+                        949.0,
+                        291.0,
+                        948.0,
+                        291.0,
+                        971.0,
+                        29.0,
+                        972.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "INV NO: CS-SA-0074035",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                31.0,
+                                949.0,
+                                67.0,
+                                949.0,
+                                66.0,
+                                972.0,
+                                29.0,
+                                972.0
+                            ],
+                            "text": "INV",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "997,3992,13,35",
-                            "text": ":"
+                            "boundingBox": [
+                                74.0,
+                                949.0,
+                                119.0,
+                                949.0,
+                                118.0,
+                                972.0,
+                                72.0,
+                                972.0
+                            ],
+                            "text": "NO:",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "1031,3975,554,65",
-                            "text": "Sanyu.Stationery"
+                            "boundingBox": [
+                                130.0,
+                                949.0,
+                                288.0,
+                                949.0,
+                                289.0,
+                                972.0,
+                                129.0,
+                                972.0
+                            ],
+                            "text": "CS-SA-0074035",
+                            "confidence": 0.991
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        321.0,
+                        948.0,
+                        521.0,
+                        948.0,
+                        521.0,
+                        972.0,
+                        321.0,
+                        971.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Date : 27/03/2017",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                322.0,
+                                949.0,
+                                369.0,
+                                949.0,
+                                368.0,
+                                971.0,
+                                321.0,
+                                971.0
+                            ],
+                            "text": "Date",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                374.0,
+                                949.0,
+                                387.0,
+                                949.0,
+                                386.0,
+                                971.0,
+                                373.0,
+                                971.0
+                            ],
+                            "text": ":",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                400.0,
+                                949.0,
+                                521.0,
+                                948.0,
+                                520.0,
+                                972.0,
+                                400.0,
+                                972.0
+                            ],
+                            "text": "27/03/2017",
+                            "confidence": 0.991
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        70.0,
+                        1096.0,
+                        575.0,
+                        1094.0,
+                        575.0,
+                        1116.0,
+                        70.0,
+                        1119.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Goods sold are not Returnable & Refundable",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                71.0,
+                                1097.0,
+                                142.0,
+                                1097.0,
+                                141.0,
+                                1119.0,
+                                71.0,
+                                1118.0
+                            ],
+                            "text": "Goods",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                146.0,
+                                1097.0,
+                                193.0,
+                                1096.0,
+                                193.0,
+                                1119.0,
+                                146.0,
+                                1119.0
+                            ],
+                            "text": "sold",
+                            "confidence": 0.983
+                        },
+                        {
+                            "boundingBox": [
+                                197.0,
+                                1096.0,
+                                234.0,
+                                1096.0,
+                                234.0,
+                                1119.0,
+                                197.0,
+                                1119.0
+                            ],
+                            "text": "are",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                240.0,
+                                1096.0,
+                                278.0,
+                                1096.0,
+                                278.0,
+                                1119.0,
+                                240.0,
+                                1119.0
+                            ],
+                            "text": "not",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                283.0,
+                                1096.0,
+                                410.0,
+                                1095.0,
+                                411.0,
+                                1118.0,
+                                283.0,
+                                1119.0
+                            ],
+                            "text": "Returnable",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                415.0,
+                                1095.0,
+                                430.0,
+                                1095.0,
+                                430.0,
+                                1118.0,
+                                416.0,
+                                1118.0
+                            ],
+                            "text": "&",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                439.0,
+                                1095.0,
+                                572.0,
+                                1094.0,
+                                573.0,
+                                1117.0,
+                                439.0,
+                                1118.0
+                            ],
+                            "text": "Refundable",
+                            "confidence": 0.995
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        118.0,
+                        1146.0,
+                        527.0,
+                        1145.0,
+                        527.0,
+                        1165.0,
+                        118.0,
+                        1167.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "THANK YOU FOR YOUR PATRONAGE",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                119.0,
+                                1147.0,
+                                195.0,
+                                1147.0,
+                                195.0,
+                                1167.0,
+                                120.0,
+                                1167.0
+                            ],
+                            "text": "THANK",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                203.0,
+                                1147.0,
+                                249.0,
+                                1146.0,
+                                249.0,
+                                1167.0,
+                                204.0,
+                                1167.0
+                            ],
+                            "text": "YOU",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                257.0,
+                                1146.0,
+                                300.0,
+                                1146.0,
+                                301.0,
+                                1167.0,
+                                258.0,
+                                1167.0
+                            ],
+                            "text": "FOR",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                310.0,
+                                1146.0,
+                                374.0,
+                                1146.0,
+                                374.0,
+                                1167.0,
+                                311.0,
+                                1167.0
+                            ],
+                            "text": "YOUR",
+                            "confidence": 0.981
+                        },
+                        {
+                            "boundingBox": [
+                                381.0,
+                                1146.0,
+                                522.0,
+                                1145.0,
+                                523.0,
+                                1166.0,
+                                381.0,
+                                1167.0
+                            ],
+                            "text": "PATRONAGE",
+                            "confidence": 0.995
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        200.0,
+                        1175.0,
+                        444.0,
+                        1175.0,
+                        444.0,
+                        1196.0,
+                        200.0,
+                        1197.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "PLEASE COME AGAIN.",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                200.0,
+                                1177.0,
+                                280.0,
+                                1176.0,
+                                280.0,
+                                1197.0,
+                                200.0,
+                                1197.0
+                            ],
+                            "text": "PLEASE",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                286.0,
+                                1176.0,
+                                355.0,
+                                1176.0,
+                                355.0,
+                                1197.0,
+                                286.0,
+                                1197.0
+                            ],
+                            "text": "COME",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                361.0,
+                                1176.0,
+                                443.0,
+                                1176.0,
+                                443.0,
+                                1197.0,
+                                361.0,
+                                1197.0
+                            ],
+                            "text": "AGAIN.",
+                            "confidence": 0.994
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        123.0,
+                        1229.0,
+                        524.0,
+                        1228.0,
+                        524.0,
+                        1249.0,
+                        123.0,
+                        1250.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "TERIMA KASIH SILA DATANG LAGI",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                124.0,
+                                1231.0,
+                                207.0,
+                                1230.0,
+                                208.0,
+                                1251.0,
+                                124.0,
+                                1250.0
+                            ],
+                            "text": "TERIMA",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                217.0,
+                                1230.0,
+                                280.0,
+                                1229.0,
+                                281.0,
+                                1251.0,
+                                217.0,
+                                1251.0
+                            ],
+                            "text": "KASIH",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                306.0,
+                                1229.0,
+                                351.0,
+                                1229.0,
+                                351.0,
+                                1251.0,
+                                307.0,
+                                1251.0
+                            ],
+                            "text": "SILA",
+                            "confidence": 0.983
+                        },
+                        {
+                            "boundingBox": [
+                                362.0,
+                                1229.0,
+                                456.0,
+                                1229.0,
+                                456.0,
+                                1250.0,
+                                362.0,
+                                1251.0
+                            ],
+                            "text": "DATANG",
+                            "confidence": 0.997
+                        },
+                        {
+                            "boundingBox": [
+                                467.0,
+                                1229.0,
+                                523.0,
+                                1230.0,
+                                523.0,
+                                1249.0,
+                                467.0,
+                                1250.0
+                            ],
+                            "text": "LAGI",
+                            "confidence": 0.941
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        74.0,
+                        1280.0,
+                        575.0,
+                        1280.0,
+                        575.0,
+                        1303.0,
+                        74.0,
+                        1303.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "** PLEASE KEEP THIS RECEIPT FOR PROVE OF",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                76.0,
+                                1281.0,
+                                98.0,
+                                1281.0,
+                                98.0,
+                                1301.0,
+                                75.0,
+                                1301.0
+                            ],
+                            "text": "**",
+                            "confidence": 0.972
+                        },
+                        {
+                            "boundingBox": [
+                                103.0,
+                                1281.0,
+                                184.0,
+                                1281.0,
+                                184.0,
+                                1303.0,
+                                102.0,
+                                1301.0
+                            ],
+                            "text": "PLEASE",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                190.0,
+                                1281.0,
+                                246.0,
+                                1281.0,
+                                246.0,
+                                1303.0,
+                                190.0,
+                                1303.0
+                            ],
+                            "text": "KEEP",
+                            "confidence": 0.988
+                        },
+                        {
+                            "boundingBox": [
+                                252.0,
+                                1281.0,
+                                304.0,
+                                1280.0,
+                                303.0,
+                                1304.0,
+                                252.0,
+                                1303.0
+                            ],
+                            "text": "THIS",
+                            "confidence": 0.983
+                        },
+                        {
+                            "boundingBox": [
+                                308.0,
+                                1280.0,
+                                401.0,
+                                1280.0,
+                                401.0,
+                                1303.0,
+                                308.0,
+                                1304.0
+                            ],
+                            "text": "RECEIPT",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                406.0,
+                                1280.0,
+                                449.0,
+                                1280.0,
+                                449.0,
+                                1303.0,
+                                406.0,
+                                1303.0
+                            ],
+                            "text": "FOR",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                458.0,
+                                1280.0,
+                                537.0,
+                                1281.0,
+                                536.0,
+                                1302.0,
+                                458.0,
+                                1303.0
+                            ],
+                            "text": "PROVE",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                541.0,
+                                1281.0,
+                                573.0,
+                                1281.0,
+                                572.0,
+                                1302.0,
+                                541.0,
+                                1302.0
+                            ],
+                            "text": "OF",
+                            "confidence": 0.998
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        55.0,
+                        1313.0,
+                        590.0,
+                        1312.0,
+                        590.0,
+                        1334.0,
+                        55.0,
+                        1336.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "PURCHASE DATE FOR I.T PRODUCT WARRANTY",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                56.0,
+                                1314.0,
+                                177.0,
+                                1313.0,
+                                176.0,
+                                1335.0,
+                                55.0,
+                                1337.0
+                            ],
+                            "text": "PURCHASE",
+                            "confidence": 0.993
+                        },
+                        {
+                            "boundingBox": [
+                                183.0,
+                                1313.0,
+                                243.0,
+                                1313.0,
+                                243.0,
+                                1335.0,
+                                182.0,
+                                1335.0
+                            ],
+                            "text": "DATE",
+                            "confidence": 0.988
+                        },
+                        {
+                            "boundingBox": [
+                                248.0,
+                                1313.0,
+                                292.0,
+                                1312.0,
+                                292.0,
+                                1334.0,
+                                248.0,
+                                1335.0
+                            ],
+                            "text": "FOR",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                304.0,
+                                1312.0,
+                                331.0,
+                                1312.0,
+                                331.0,
+                                1334.0,
+                                304.0,
+                                1334.0
+                            ],
+                            "text": "I.T",
+                            "confidence": 0.928
+                        },
+                        {
+                            "boundingBox": [
+                                338.0,
+                                1312.0,
+                                450.0,
+                                1312.0,
+                                450.0,
+                                1334.0,
+                                337.0,
+                                1334.0
+                            ],
+                            "text": "PRODUCT",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                455.0,
+                                1312.0,
+                                589.0,
+                                1312.0,
+                                589.0,
+                                1334.0,
+                                455.0,
+                                1334.0
+                            ],
+                            "text": "WARRANTY",
+                            "confidence": 0.994
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        251.0,
+                        1346.0,
+                        363.0,
+                        1345.0,
+                        363.0,
+                        1365.0,
+                        251.0,
+                        1366.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "PURPOSE",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                251.0,
+                                1348.0,
+                                356.0,
+                                1346.0,
+                                357.0,
+                                1366.0,
+                                252.0,
+                                1366.0
+                            ],
+                            "text": "PURPOSE",
+                            "confidence": 0.994
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        364.0,
+                        1344.0,
+                        396.0,
+                        1344.0,
+                        395.0,
+                        1358.0,
+                        364.0,
+                        1359.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.945
+                        }
+                    },
+                    "text": "**",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                369.0,
+                                1344.0,
+                                393.0,
+                                1344.0,
+                                393.0,
+                                1359.0,
+                                370.0,
+                                1359.0
+                            ],
+                            "text": "**",
+                            "confidence": 0.981
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        93.0,
+                        1397.0,
+                        555.0,
+                        1397.0,
+                        555.0,
+                        1421.0,
+                        93.0,
+                        1421.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Follow us in Facebook : Sanyu.Stationery",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                95.0,
+                                1398.0,
+                                162.0,
+                                1398.0,
+                                162.0,
+                                1421.0,
+                                94.0,
+                                1421.0
+                            ],
+                            "text": "Follow",
+                            "confidence": 0.997
+                        },
+                        {
+                            "boundingBox": [
+                                174.0,
+                                1398.0,
+                                199.0,
+                                1397.0,
+                                198.0,
+                                1421.0,
+                                173.0,
+                                1421.0
+                            ],
+                            "text": "us",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                203.0,
+                                1397.0,
+                                225.0,
+                                1397.0,
+                                224.0,
+                                1421.0,
+                                203.0,
+                                1421.0
+                            ],
+                            "text": "in",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                230.0,
+                                1397.0,
+                                339.0,
+                                1397.0,
+                                339.0,
+                                1421.0,
+                                229.0,
+                                1421.0
+                            ],
+                            "text": "Facebook",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                344.0,
+                                1397.0,
+                                352.0,
+                                1397.0,
+                                351.0,
+                                1421.0,
+                                344.0,
+                                1421.0
+                            ],
+                            "text": ":",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                357.0,
+                                1397.0,
+                                553.0,
+                                1398.0,
+                                553.0,
+                                1422.0,
+                                356.0,
+                                1421.0
+                            ],
+                            "text": "Sanyu.Stationery",
+                            "confidence": 0.991
                         }
                     ]
                 }
             ]
         }
-    ],
-    "model_version": "2021-04-01"
+    ]
 }
