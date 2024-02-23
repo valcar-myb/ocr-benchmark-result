@@ -1,637 +1,3200 @@
 {
-    "language": "en",
-    "text_angle": 0.0,
-    "orientation": "Up",
-    "regions": [
+    "version": "3.2.0",
+    "modelVersion": "2022-04-30",
+    "readResults": [
         {
-            "bounding_box": "256,121,286,16",
+            "page": 1,
+            "angle": -0.2022,
+            "width": 770.0,
+            "height": 1000.0,
+            "unit": "pixel",
             "lines": [
                 {
-                    "bounding_box": "256,121,286,16",
-                    "words": [
-                        {
-                            "bounding_box": "256,124,100,13",
-                            "text": "COMPOUND"
-                        },
-                        {
-                            "bounding_box": "363,123,75,12",
-                            "text": "PHYSICAL"
-                        },
-                        {
-                            "bounding_box": "443,121,99,13",
-                            "text": "PARAMETERS"
+                    "boundingBox": [
+                        254.0,
+                        121.0,
+                        543.0,
+                        118.0,
+                        543.0,
+                        136.0,
+                        254.0,
+                        140.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "126,306,350,158",
-            "lines": [
-                {
-                    "bounding_box": "130,306,100,10",
+                    },
+                    "text": "COMPOUND PHYSICAL PARAMETERS",
                     "words": [
                         {
-                            "bounding_box": "130,306,19,10",
-                            "text": "Not"
+                            "boundingBox": [
+                                255.0,
+                                122.0,
+                                352.0,
+                                120.0,
+                                352.0,
+                                138.0,
+                                254.0,
+                                140.0
+                            ],
+                            "text": "COMPOUND",
+                            "confidence": 0.996
                         },
                         {
-                            "bounding_box": "156,306,74,10",
-                            "text": "Determined."
-                        }
-                    ]
-                },
-                {
-                    "bounding_box": "129,372,347,13",
-                    "words": [
-                        {
-                            "bounding_box": "129,374,26,9",
-                            "text": "A221"
+                            "boundingBox": [
+                                359.0,
+                                120.0,
+                                437.0,
+                                119.0,
+                                437.0,
+                                137.0,
+                                359.0,
+                                138.0
+                            ],
+                            "text": "PHYSICAL",
+                            "confidence": 0.995
                         },
                         {
-                            "bounding_box": "163,373,13,10",
-                            "text": "is"
-                        },
-                        {
-                            "bounding_box": "184,373,47,10",
-                            "text": "soluble"
-                        },
-                        {
-                            "bounding_box": "239,373,13,10",
-                            "text": "in"
-                        },
-                        {
-                            "bounding_box": "259,374,28,9",
-                            "text": "Eton"
-                        },
-                        {
-                            "bounding_box": "293,374,13,9",
-                            "text": "at"
-                        },
-                        {
-                            "bounding_box": "315,373,19,10",
-                            "text": "0.2"
-                        },
-                        {
-                            "bounding_box": "341,372,32,13",
-                            "text": "g/nL,"
-                        },
-                        {
-                            "bounding_box": "382,372,28,10",
-                            "text": "with"
-                        },
-                        {
-                            "bounding_box": "417,372,59,13",
-                            "text": "stirring,"
+                            "boundingBox": [
+                                440.0,
+                                119.0,
+                                542.0,
+                                119.0,
+                                542.0,
+                                136.0,
+                                440.0,
+                                137.0
+                            ],
+                            "text": "PARAMETERS",
+                            "confidence": 0.994
                         }
                     ]
                 },
                 {
-                    "bounding_box": "225,386,121,11",
+                    "boundingBox": [
+                        115.0,
+                        152.0,
+                        175.0,
+                        152.0,
+                        175.0,
+                        162.0,
+                        115.0,
+                        162.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "LAC FILE NUMBER",
                     "words": [
                         {
-                            "bounding_box": "225,387,61,10",
-                            "text": "Reference"
+                            "boundingBox": [
+                                116.0,
+                                153.0,
+                                127.0,
+                                153.0,
+                                127.0,
+                                162.0,
+                                116.0,
+                                162.0
+                            ],
+                            "text": "LAC",
+                            "confidence": 0.607
                         },
                         {
-                            "bounding_box": "294,386,52,10",
-                            "text": "BC30\u201488."
+                            "boundingBox": [
+                                129.0,
+                                154.0,
+                                143.0,
+                                154.0,
+                                143.0,
+                                163.0,
+                                129.0,
+                                162.0
+                            ],
+                            "text": "FILE",
+                            "confidence": 0.982
+                        },
+                        {
+                            "boundingBox": [
+                                145.0,
+                                154.0,
+                                174.0,
+                                153.0,
+                                174.0,
+                                162.0,
+                                145.0,
+                                163.0
+                            ],
+                            "text": "NUMBER",
+                            "confidence": 0.991
                         }
                     ]
                 },
                 {
-                    "bounding_box": "126,437,343,15",
+                    "boundingBox": [
+                        508.0,
+                        147.0,
+                        554.0,
+                        146.0,
+                        555.0,
+                        156.0,
+                        508.0,
+                        157.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "LOT NUMBER",
                     "words": [
                         {
-                            "bounding_box": "126,437,29,13",
-                            "text": "%221"
+                            "boundingBox": [
+                                509.0,
+                                148.0,
+                                520.0,
+                                147.0,
+                                520.0,
+                                157.0,
+                                509.0,
+                                158.0
+                            ],
+                            "text": "LOT",
+                            "confidence": 0.994
                         },
                         {
-                            "bounding_box": "163,441,33,9",
-                            "text": "forms"
-                        },
-                        {
-                            "bounding_box": "204,443,6,7",
-                            "text": "a"
-                        },
-                        {
-                            "bounding_box": "217,440,55,10",
-                            "text": "solution"
-                        },
-                        {
-                            "bounding_box": "280,440,13,10",
-                            "text": "in"
-                        },
-                        {
-                            "bounding_box": "300,443,28,7",
-                            "text": "corn"
-                        },
-                        {
-                            "bounding_box": "334,440,20,10",
-                            "text": "oil"
-                        },
-                        {
-                            "bounding_box": "362,441,12,8",
-                            "text": "at"
-                        },
-                        {
-                            "bounding_box": "382,440,20,9",
-                            "text": "0.5"
-                        },
-                        {
-                            "bounding_box": "409,439,34,13",
-                            "text": "g/O.5"
-                        },
-                        {
-                            "bounding_box": "450,440,19,11",
-                            "text": "mL,"
+                            "boundingBox": [
+                                522.0,
+                                147.0,
+                                553.0,
+                                147.0,
+                                553.0,
+                                157.0,
+                                522.0,
+                                157.0
+                            ],
+                            "text": "NUMBER",
+                            "confidence": 0.991
                         }
                     ]
                 },
                 {
-                    "bounding_box": "129,453,271,11",
-                    "words": [
-                        {
-                            "bounding_box": "129,455,12,9",
-                            "text": "at"
-                        },
-                        {
-                            "bounding_box": "279,454,62,10",
-                            "text": "Reference"
-                        },
-                        {
-                            "bounding_box": "348,453,52,10",
-                            "text": "BC30\u201488."
+                    "boundingBox": [
+                        129.0,
+                        162.0,
+                        152.0,
+                        162.0,
+                        153.0,
+                        172.0,
+                        130.0,
+                        172.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "130,163,459,738",
-            "lines": [
-                {
-                    "bounding_box": "130,163,26,9",
+                    },
+                    "text": "A22:",
                     "words": [
                         {
-                            "bounding_box": "130,163,26,9",
-                            "text": "A222"
-                        }
-                    ]
-                },
-                {
-                    "bounding_box": "130,188,369,14",
-                    "words": [
-                        {
-                            "bounding_box": "130,190,8,9",
-                            "text": "A"
-                        },
-                        {
-                            "bounding_box": "144,190,74,12",
-                            "text": "crystalline"
-                        },
-                        {
-                            "bounding_box": "226,189,35,10",
-                            "text": "solid"
-                        },
-                        {
-                            "bounding_box": "267,190,13,9",
-                            "text": "at"
-                        },
-                        {
-                            "bounding_box": "288,192,28,7",
-                            "text": "room"
-                        },
-                        {
-                            "bounding_box": "323,189,74,12",
-                            "text": "teperature"
-                        },
-                        {
-                            "bounding_box": "404,188,34,10",
-                            "text": "Which"
-                        },
-                        {
-                            "bounding_box": "445,188,34,10",
-                            "text": "Nits"
-                        },
-                        {
-                            "bounding_box": "486,189,13,9",
-                            "text": "at"
+                            "boundingBox": [
+                                130.0,
+                                162.0,
+                                153.0,
+                                162.0,
+                                153.0,
+                                172.0,
+                                130.0,
+                                172.0
+                            ],
+                            "text": "A22:",
+                            "confidence": 0.604
                         }
                     ]
                 },
                 {
-                    "bounding_box": "130,222,439,15",
+                    "boundingBox": [
+                        113.0,
+                        179.0,
+                        172.0,
+                        178.0,
+                        172.0,
+                        189.0,
+                        114.0,
+                        190.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.901
+                        }
+                    },
+                    "text": "PHYSICAL STATE",
                     "words": [
                         {
-                            "bounding_box": "130,224,20,10",
-                            "text": "The"
+                            "boundingBox": [
+                                114.0,
+                                181.0,
+                                146.0,
+                                179.0,
+                                146.0,
+                                189.0,
+                                114.0,
+                                189.0
+                            ],
+                            "text": "PHYSICAL",
+                            "confidence": 0.411
                         },
                         {
-                            "bounding_box": "157,225,14,12",
-                            "text": "pH"
-                        },
-                        {
-                            "bounding_box": "177,224,14,10",
-                            "text": "Of"
-                        },
-                        {
-                            "bounding_box": "198,226,7,8",
-                            "text": "a"
-                        },
-                        {
-                            "bounding_box": "240,223,89,11",
-                            "text": "concentration"
-                        },
-                        {
-                            "bounding_box": "336,223,13,10",
-                            "text": "Of"
-                        },
-                        {
-                            "bounding_box": "356,223,27,10",
-                            "text": "A221"
-                        },
-                        {
-                            "bounding_box": "390,222,14,11",
-                            "text": "in"
-                        },
-                        {
-                            "bounding_box": "410,223,35,10",
-                            "text": "Mater"
-                        },
-                        {
-                            "bounding_box": "451,225,21,8",
-                            "text": "vas"
-                        },
-                        {
-                            "bounding_box": "479,222,90,14",
-                            "text": "theoretically"
+                            "boundingBox": [
+                                148.0,
+                                179.0,
+                                170.0,
+                                179.0,
+                                169.0,
+                                190.0,
+                                148.0,
+                                189.0
+                            ],
+                            "text": "STATE",
+                            "confidence": 0.991
                         }
                     ]
                 },
                 {
-                    "bounding_box": "130,236,459,13",
+                    "boundingBox": [
+                        127.0,
+                        188.0,
+                        549.0,
+                        186.0,
+                        549.0,
+                        199.0,
+                        127.0,
+                        201.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "A crystalline solid at room temperature which melts at >56\u00ba\u2103.",
                     "words": [
                         {
-                            "bounding_box": "130,238,68,10",
-                            "text": "calculated"
+                            "boundingBox": [
+                                128.0,
+                                188.0,
+                                136.0,
+                                188.0,
+                                136.0,
+                                202.0,
+                                128.0,
+                                202.0
+                            ],
+                            "text": "A",
+                            "confidence": 0.994
                         },
                         {
-                            "bounding_box": "205,239,13,9",
-                            "text": "to"
+                            "boundingBox": [
+                                141.0,
+                                188.0,
+                                217.0,
+                                188.0,
+                                217.0,
+                                202.0,
+                                141.0,
+                                202.0
+                            ],
+                            "text": "crystalline",
+                            "confidence": 0.993
                         },
                         {
-                            "bounding_box": "225,238,14,9",
-                            "text": "be"
+                            "boundingBox": [
+                                223.0,
+                                188.0,
+                                259.0,
+                                188.0,
+                                259.0,
+                                201.0,
+                                223.0,
+                                202.0
+                            ],
+                            "text": "solid",
+                            "confidence": 0.997
                         },
                         {
-                            "bounding_box": "247,238,26,9",
-                            "text": "7.26"
+                            "boundingBox": [
+                                264.0,
+                                188.0,
+                                279.0,
+                                188.0,
+                                279.0,
+                                201.0,
+                                264.0,
+                                201.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "281,238,12,9",
-                            "text": "at"
+                            "boundingBox": [
+                                285.0,
+                                188.0,
+                                314.0,
+                                187.0,
+                                314.0,
+                                201.0,
+                                285.0,
+                                201.0
+                            ],
+                            "text": "room",
+                            "confidence": 0.988
                         },
                         {
-                            "bounding_box": "302,238,12,9",
-                            "text": "22"
+                            "boundingBox": [
+                                320.0,
+                                187.0,
+                                396.0,
+                                187.0,
+                                396.0,
+                                201.0,
+                                320.0,
+                                201.0
+                            ],
+                            "text": "temperature",
+                            "confidence": 0.994
                         },
                         {
-                            "bounding_box": "316,238,13,9",
-                            "text": "\u2022C"
+                            "boundingBox": [
+                                401.0,
+                                187.0,
+                                437.0,
+                                187.0,
+                                437.0,
+                                200.0,
+                                402.0,
+                                201.0
+                            ],
+                            "text": "which",
+                            "confidence": 0.994
                         },
                         {
-                            "bounding_box": "370,239,6,7",
-                            "text": "a"
+                            "boundingBox": [
+                                442.0,
+                                187.0,
+                                478.0,
+                                186.0,
+                                479.0,
+                                200.0,
+                                442.0,
+                                200.0
+                            ],
+                            "text": "melts",
+                            "confidence": 0.996
                         },
                         {
-                            "bounding_box": "383,237,27,9",
-                            "text": "0.5*"
+                            "boundingBox": [
+                                484.0,
+                                186.0,
+                                498.0,
+                                186.0,
+                                498.0,
+                                200.0,
+                                484.0,
+                                200.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "418,236,54,11",
-                            "text": "solution"
-                        },
-                        {
-                            "bounding_box": "479,236,13,10",
-                            "text": "in"
-                        },
-                        {
-                            "bounding_box": "500,236,33,11",
-                            "text": "79.5'"
-                        },
-                        {
-                            "bounding_box": "540,239,49,10",
-                            "text": "aqueous"
+                            "boundingBox": [
+                                504.0,
+                                186.0,
+                                548.0,
+                                186.0,
+                                549.0,
+                                200.0,
+                                504.0,
+                                200.0
+                            ],
+                            "text": ">56\u00ba\u2103.",
+                            "confidence": 0.658
                         }
                     ]
                 },
                 {
-                    "bounding_box": "130,250,422,14",
+                    "boundingBox": [
+                        127.0,
+                        221.0,
+                        568.0,
+                        220.0,
+                        568.0,
+                        235.0,
+                        127.0,
+                        236.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "The pH of a 50% concentration of A221 in water was theoretically",
                     "words": [
                         {
-                            "bounding_box": "130,252,47,9",
-                            "text": "dioxane"
+                            "boundingBox": [
+                                128.0,
+                                223.0,
+                                148.0,
+                                223.0,
+                                149.0,
+                                237.0,
+                                129.0,
+                                237.0
+                            ],
+                            "text": "The",
+                            "confidence": 0.994
                         },
                         {
-                            "bounding_box": "184,251,62,13",
-                            "text": "according"
+                            "boundingBox": [
+                                153.0,
+                                223.0,
+                                169.0,
+                                223.0,
+                                170.0,
+                                236.0,
+                                154.0,
+                                237.0
+                            ],
+                            "text": "pH",
+                            "confidence": 0.997
                         },
                         {
-                            "bounding_box": "253,252,14,9",
-                            "text": "to"
+                            "boundingBox": [
+                                174.0,
+                                222.0,
+                                190.0,
+                                222.0,
+                                190.0,
+                                236.0,
+                                175.0,
+                                236.0
+                            ],
+                            "text": "of",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "274,251,20,10",
-                            "text": "the"
+                            "boundingBox": [
+                                195.0,
+                                222.0,
+                                203.0,
+                                222.0,
+                                204.0,
+                                236.0,
+                                196.0,
+                                236.0
+                            ],
+                            "text": "a",
+                            "confidence": 0.995
                         },
                         {
-                            "bounding_box": "301,250,89,13",
-                            "text": "extrapolation"
+                            "boundingBox": [
+                                208.0,
+                                222.0,
+                                231.0,
+                                222.0,
+                                231.0,
+                                236.0,
+                                208.0,
+                                236.0
+                            ],
+                            "text": "50%",
+                            "confidence": 0.886
                         },
                         {
-                            "bounding_box": "396,251,69,11",
-                            "text": "procedures"
+                            "boundingBox": [
+                                236.0,
+                                222.0,
+                                327.0,
+                                221.0,
+                                328.0,
+                                235.0,
+                                237.0,
+                                236.0
+                            ],
+                            "text": "concentration",
+                            "confidence": 0.993
                         },
                         {
-                            "bounding_box": "472,250,13,10",
-                            "text": "of"
+                            "boundingBox": [
+                                333.0,
+                                221.0,
+                                348.0,
+                                221.0,
+                                348.0,
+                                235.0,
+                                333.0,
+                                235.0
+                            ],
+                            "text": "of",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "492,251,19,9",
-                            "text": "Dc."
+                            "boundingBox": [
+                                353.0,
+                                221.0,
+                                382.0,
+                                221.0,
+                                382.0,
+                                235.0,
+                                353.0,
+                                235.0
+                            ],
+                            "text": "A221",
+                            "confidence": 0.985
                         },
                         {
-                            "bounding_box": "520,251,12,9",
-                            "text": "p."
+                            "boundingBox": [
+                                387.0,
+                                221.0,
+                                401.0,
+                                221.0,
+                                402.0,
+                                235.0,
+                                388.0,
+                                235.0
+                            ],
+                            "text": "in",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "540,251,12,9",
-                            "text": "D."
+                            "boundingBox": [
+                                407.0,
+                                221.0,
+                                444.0,
+                                221.0,
+                                444.0,
+                                235.0,
+                                407.0,
+                                235.0
+                            ],
+                            "text": "water",
+                            "confidence": 0.997
+                        },
+                        {
+                            "boundingBox": [
+                                449.0,
+                                221.0,
+                                471.0,
+                                221.0,
+                                471.0,
+                                235.0,
+                                449.0,
+                                235.0
+                            ],
+                            "text": "was",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                476.0,
+                                221.0,
+                                567.0,
+                                222.0,
+                                567.0,
+                                235.0,
+                                476.0,
+                                235.0
+                            ],
+                            "text": "theoretically",
+                            "confidence": 0.993
                         }
                     ]
                 },
                 {
-                    "bounding_box": "130,264,450,12",
+                    "boundingBox": [
+                        128.0,
+                        235.0,
+                        590.0,
+                        234.0,
+                        590.0,
+                        249.0,
+                        128.0,
+                        250.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "calculated to be 7.26 at 22\u00ba\u2103 from a 0.5% solution in 79.5% aqueous",
                     "words": [
                         {
-                            "bounding_box": "130,265,86,11",
-                            "text": "Schickedantz,"
+                            "boundingBox": [
+                                128.0,
+                                238.0,
+                                196.0,
+                                237.0,
+                                197.0,
+                                249.0,
+                                129.0,
+                                250.0
+                            ],
+                            "text": "calculated",
+                            "confidence": 0.992
                         },
                         {
-                            "bounding_box": "225,265,62,10",
-                            "text": "Lorillard"
+                            "boundingBox": [
+                                202.0,
+                                237.0,
+                                216.0,
+                                236.0,
+                                217.0,
+                                249.0,
+                                202.0,
+                                249.0
+                            ],
+                            "text": "to",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "294,264,62,10",
-                            "text": "Accession"
+                            "boundingBox": [
+                                222.0,
+                                236.0,
+                                237.0,
+                                236.0,
+                                238.0,
+                                249.0,
+                                222.0,
+                                249.0
+                            ],
+                            "text": "be",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "411,264,32,10",
-                            "text": "1662."
+                            "boundingBox": [
+                                244.0,
+                                236.0,
+                                273.0,
+                                236.0,
+                                273.0,
+                                249.0,
+                                245.0,
+                                249.0
+                            ],
+                            "text": "7.26",
+                            "confidence": 0.989
                         },
                         {
-                            "bounding_box": "577,271,3,3",
-                            "text": "."
+                            "boundingBox": [
+                                278.0,
+                                236.0,
+                                293.0,
+                                235.0,
+                                293.0,
+                                248.0,
+                                278.0,
+                                249.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                300.0,
+                                235.0,
+                                327.0,
+                                235.0,
+                                327.0,
+                                248.0,
+                                300.0,
+                                248.0
+                            ],
+                            "text": "22\u00ba\u2103",
+                            "confidence": 0.323
+                        },
+                        {
+                            "boundingBox": [
+                                333.0,
+                                235.0,
+                                361.0,
+                                235.0,
+                                361.0,
+                                248.0,
+                                333.0,
+                                248.0
+                            ],
+                            "text": "from",
+                            "confidence": 0.985
+                        },
+                        {
+                            "boundingBox": [
+                                367.0,
+                                235.0,
+                                375.0,
+                                235.0,
+                                375.0,
+                                248.0,
+                                367.0,
+                                248.0
+                            ],
+                            "text": "a",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                380.0,
+                                235.0,
+                                408.0,
+                                235.0,
+                                408.0,
+                                248.0,
+                                380.0,
+                                248.0
+                            ],
+                            "text": "0.5%",
+                            "confidence": 0.646
+                        },
+                        {
+                            "boundingBox": [
+                                415.0,
+                                235.0,
+                                470.0,
+                                235.0,
+                                470.0,
+                                248.0,
+                                415.0,
+                                248.0
+                            ],
+                            "text": "solution",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                476.0,
+                                235.0,
+                                490.0,
+                                235.0,
+                                490.0,
+                                249.0,
+                                476.0,
+                                248.0
+                            ],
+                            "text": "in",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                498.0,
+                                236.0,
+                                532.0,
+                                236.0,
+                                532.0,
+                                249.0,
+                                498.0,
+                                249.0
+                            ],
+                            "text": "79.5%",
+                            "confidence": 0.605
+                        },
+                        {
+                            "boundingBox": [
+                                538.0,
+                                236.0,
+                                588.0,
+                                237.0,
+                                588.0,
+                                249.0,
+                                538.0,
+                                249.0
+                            ],
+                            "text": "aqueous",
+                            "confidence": 0.995
                         }
                     ]
                 },
                 {
-                    "bounding_box": "391,892,32,9",
-                    "words": [
-                        {
-                            "bounding_box": "391,895,7,3",
-                            "text": "-"
-                        },
-                        {
-                            "bounding_box": "408,892,15,9",
-                            "text": "13"
+                    "boundingBox": [
+                        129.0,
+                        249.0,
+                        554.0,
+                        248.0,
+                        554.0,
+                        261.0,
+                        129.0,
+                        263.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "478,373,89,79",
-            "lines": [
-                {
-                    "bounding_box": "485,373,13,9",
+                    },
+                    "text": "dioxane according to the extrapolation procedures of Dr. P. D.",
                     "words": [
                         {
-                            "bounding_box": "485,373,13,9",
-                            "text": "at"
-                        }
-                    ]
-                },
-                {
-                    "bounding_box": "478,439,89,13",
-                    "words": [
-                        {
-                            "bounding_box": "478,439,27,10",
-                            "text": "*Eth"
+                            "boundingBox": [
+                                129.0,
+                                250.0,
+                                176.0,
+                                250.0,
+                                175.0,
+                                263.0,
+                                129.0,
+                                263.0
+                            ],
+                            "text": "dioxane",
+                            "confidence": 0.996
                         },
                         {
-                            "bounding_box": "512,439,55,13",
-                            "text": "stirring"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "128,506,439,28",
-            "lines": [
-                {
-                    "bounding_box": "128,506,439,14",
-                    "words": [
-                        {
-                            "bounding_box": "128,508,27,10",
-                            "text": "A221"
+                            "boundingBox": [
+                                182.0,
+                                250.0,
+                                245.0,
+                                249.0,
+                                245.0,
+                                263.0,
+                                182.0,
+                                263.0
+                            ],
+                            "text": "according",
+                            "confidence": 0.995
                         },
                         {
-                            "bounding_box": "163,509,33,9",
-                            "text": "toms"
+                            "boundingBox": [
+                                251.0,
+                                249.0,
+                                265.0,
+                                249.0,
+                                265.0,
+                                263.0,
+                                250.0,
+                                263.0
+                            ],
+                            "text": "to",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "203,510,7,8",
-                            "text": "a"
+                            "boundingBox": [
+                                271.0,
+                                249.0,
+                                293.0,
+                                249.0,
+                                292.0,
+                                263.0,
+                                271.0,
+                                263.0
+                            ],
+                            "text": "the",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "217,508,55,10",
-                            "text": "solution"
+                            "boundingBox": [
+                                298.0,
+                                249.0,
+                                388.0,
+                                249.0,
+                                388.0,
+                                262.0,
+                                298.0,
+                                263.0
+                            ],
+                            "text": "extrapolation",
+                            "confidence": 0.993
                         },
                         {
-                            "bounding_box": "279,508,14,10",
-                            "text": "in"
+                            "boundingBox": [
+                                394.0,
+                                249.0,
+                                465.0,
+                                249.0,
+                                464.0,
+                                262.0,
+                                393.0,
+                                262.0
+                            ],
+                            "text": "procedures",
+                            "confidence": 0.995
                         },
                         {
-                            "bounding_box": "300,510,27,8",
-                            "text": "corn"
+                            "boundingBox": [
+                                469.0,
+                                249.0,
+                                485.0,
+                                249.0,
+                                484.0,
+                                262.0,
+                                468.0,
+                                262.0
+                            ],
+                            "text": "of",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "334,507,20,11",
-                            "text": "Oil"
+                            "boundingBox": [
+                                489.0,
+                                249.0,
+                                513.0,
+                                249.0,
+                                512.0,
+                                261.0,
+                                488.0,
+                                262.0
+                            ],
+                            "text": "Dr.",
+                            "confidence": 0.998
                         },
                         {
-                            "bounding_box": "361,508,13,9",
-                            "text": "at"
+                            "boundingBox": [
+                                517.0,
+                                249.0,
+                                534.0,
+                                249.0,
+                                533.0,
+                                261.0,
+                                516.0,
+                                261.0
+                            ],
+                            "text": "P.",
+                            "confidence": 0.97
                         },
                         {
-                            "bounding_box": "382,507,19,10",
-                            "text": "O.S"
-                        },
-                        {
-                            "bounding_box": "409,506,34,14",
-                            "text": "g/O.5"
-                        },
-                        {
-                            "bounding_box": "477,507,28,10",
-                            "text": "with"
-                        },
-                        {
-                            "bounding_box": "512,506,55,14",
-                            "text": "stirring"
-                        }
-                    ]
-                },
-                {
-                    "bounding_box": "128,521,272,13",
-                    "words": [
-                        {
-                            "bounding_box": "128,523,13,9",
-                            "text": "at"
-                        },
-                        {
-                            "bounding_box": "149,524,27,8",
-                            "text": "room"
-                        },
-                        {
-                            "bounding_box": "183,523,80,11",
-                            "text": "teperature."
-                        },
-                        {
-                            "bounding_box": "279,522,61,9",
-                            "text": "Reference"
-                        },
-                        {
-                            "bounding_box": "348,521,52,10",
-                            "text": "BC30\u201488."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "128,602,251,12",
-            "lines": [
-                {
-                    "bounding_box": "128,602,251,12",
-                    "words": [
-                        {
-                            "bounding_box": "128,603,26,9",
-                            "text": "A221"
-                        },
-                        {
-                            "bounding_box": "162,603,13,9",
-                            "text": "is"
-                        },
-                        {
-                            "bounding_box": "183,602,60,10",
-                            "text": "insoluble"
-                        },
-                        {
-                            "bounding_box": "251,602,20,10",
-                            "text": "for"
-                        },
-                        {
-                            "bounding_box": "278,602,28,10",
-                            "text": "this"
-                        },
-                        {
-                            "bounding_box": "313,602,66,12",
-                            "text": "procedure."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "395,601,121,11",
-            "lines": [
-                {
-                    "bounding_box": "395,601,121,11",
-                    "words": [
-                        {
-                            "bounding_box": "395,602,61,10",
-                            "text": "Reference"
-                        },
-                        {
-                            "bounding_box": "464,601,52,11",
-                            "text": "BC30\u201488."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "bounding_box": "128,683,355,218",
-            "lines": [
-                {
-                    "bounding_box": "128,683,355,12",
-                    "words": [
-                        {
-                            "bounding_box": "128,683,74,12",
-                            "text": "Refrigerate"
-                        },
-                        {
-                            "bounding_box": "209,683,14,10",
-                            "text": "in"
-                        },
-                        {
-                            "bounding_box": "230,685,13,8",
-                            "text": "an"
-                        },
-                        {
-                            "bounding_box": "251,683,34,10",
-                            "text": "amber"
-                        },
-                        {
-                            "bounding_box": "292,683,34,12",
-                            "text": "glass"
-                        },
-                        {
-                            "bounding_box": "333,683,41,9",
-                            "text": "bottle"
-                        },
-                        {
-                            "bounding_box": "381,683,12,9",
-                            "text": "at"
-                        },
-                        {
-                            "bounding_box": "401,685,14,7",
-                            "text": "no"
-                        },
-                        {
-                            "bounding_box": "422,685,27,7",
-                            "text": "more"
-                        },
-                        {
-                            "bounding_box": "456,683,27,9",
-                            "text": "than"
+                            "boundingBox": [
+                                538.0,
+                                249.0,
+                                554.0,
+                                249.0,
+                                553.0,
+                                261.0,
+                                537.0,
+                                261.0
+                            ],
+                            "text": "D.",
+                            "confidence": 0.998
                         }
                     ]
                 },
                 {
-                    "bounding_box": "373,892,9,9",
+                    "boundingBox": [
+                        129.0,
+                        262.0,
+                        580.0,
+                        261.0,
+                        580.0,
+                        275.0,
+                        129.0,
+                        276.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Schickedantz, Lorillard Accession Number 1662. Reference:45-10-1.",
                     "words": [
                         {
-                            "bounding_box": "373,892,9,9",
-                            "text": "A"
+                            "boundingBox": [
+                                129.0,
+                                264.0,
+                                218.0,
+                                263.0,
+                                218.0,
+                                276.0,
+                                129.0,
+                                276.0
+                            ],
+                            "text": "Schickedantz,",
+                            "confidence": 0.869
+                        },
+                        {
+                            "boundingBox": [
+                                222.0,
+                                263.0,
+                                286.0,
+                                262.0,
+                                286.0,
+                                276.0,
+                                222.0,
+                                276.0
+                            ],
+                            "text": "Lorillard",
+                            "confidence": 0.999
+                        },
+                        {
+                            "boundingBox": [
+                                291.0,
+                                262.0,
+                                354.0,
+                                262.0,
+                                354.0,
+                                276.0,
+                                291.0,
+                                276.0
+                            ],
+                            "text": "Accession",
+                            "confidence": 0.999
+                        },
+                        {
+                            "boundingBox": [
+                                359.0,
+                                262.0,
+                                402.0,
+                                262.0,
+                                402.0,
+                                276.0,
+                                359.0,
+                                276.0
+                            ],
+                            "text": "Number",
+                            "confidence": 1.0
+                        },
+                        {
+                            "boundingBox": [
+                                409.0,
+                                262.0,
+                                445.0,
+                                262.0,
+                                444.0,
+                                276.0,
+                                408.0,
+                                276.0
+                            ],
+                            "text": "1662.",
+                            "confidence": 0.668
+                        },
+                        {
+                            "boundingBox": [
+                                456.0,
+                                262.0,
+                                580.0,
+                                262.0,
+                                580.0,
+                                275.0,
+                                455.0,
+                                276.0
+                            ],
+                            "text": "Reference:45-10-1.",
+                            "confidence": 0.303
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        115.0,
+                        288.0,
+                        178.0,
+                        288.0,
+                        178.0,
+                        298.0,
+                        115.0,
+                        298.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "SPECIFIC GRAVITY.",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                116.0,
+                                289.0,
+                                145.0,
+                                288.0,
+                                145.0,
+                                298.0,
+                                116.0,
+                                299.0
+                            ],
+                            "text": "SPECIFIC",
+                            "confidence": 0.62
+                        },
+                        {
+                            "boundingBox": [
+                                147.0,
+                                288.0,
+                                179.0,
+                                289.0,
+                                179.0,
+                                298.0,
+                                147.0,
+                                298.0
+                            ],
+                            "text": "GRAVITY.",
+                            "confidence": 0.672
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        128.0,
+                        304.0,
+                        230.0,
+                        304.0,
+                        230.0,
+                        316.0,
+                        128.0,
+                        316.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Not Determined.",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                128.0,
+                                305.0,
+                                148.0,
+                                304.0,
+                                148.0,
+                                317.0,
+                                128.0,
+                                317.0
+                            ],
+                            "text": "Not",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                153.0,
+                                304.0,
+                                230.0,
+                                304.0,
+                                230.0,
+                                317.0,
+                                153.0,
+                                317.0
+                            ],
+                            "text": "Determined.",
+                            "confidence": 0.992
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        114.0,
+                        350.0,
+                        153.0,
+                        349.0,
+                        153.0,
+                        356.0,
+                        115.0,
+                        357.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "SOLUBILITY",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                115.0,
+                                350.0,
+                                153.0,
+                                350.0,
+                                152.0,
+                                357.0,
+                                115.0,
+                                358.0
+                            ],
+                            "text": "SOLUBILITY",
+                            "confidence": 0.665
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        125.0,
+                        362.0,
+                        213.0,
+                        361.0,
+                        213.0,
+                        369.0,
+                        125.0,
+                        370.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "MUTAGENCITY SOLVENTS",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                126.0,
+                                363.0,
+                                175.0,
+                                362.0,
+                                174.0,
+                                370.0,
+                                126.0,
+                                370.0
+                            ],
+                            "text": "MUTAGENCITY",
+                            "confidence": 0.637
+                        },
+                        {
+                            "boundingBox": [
+                                176.0,
+                                362.0,
+                                211.0,
+                                362.0,
+                                211.0,
+                                370.0,
+                                176.0,
+                                370.0
+                            ],
+                            "text": "SOLVENTS",
+                            "confidence": 0.968
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        128.0,
+                        370.0,
+                        536.0,
+                        370.0,
+                        536.0,
+                        385.0,
+                        128.0,
+                        385.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "A221 is soluble in EtOH at 0.2 g/mL, with stirring, at room",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                128.0,
+                                372.0,
+                                155.0,
+                                372.0,
+                                155.0,
+                                385.0,
+                                128.0,
+                                385.0
+                            ],
+                            "text": "A221",
+                            "confidence": 0.987
+                        },
+                        {
+                            "boundingBox": [
+                                160.0,
+                                372.0,
+                                175.0,
+                                371.0,
+                                175.0,
+                                385.0,
+                                160.0,
+                                385.0
+                            ],
+                            "text": "is",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                181.0,
+                                371.0,
+                                230.0,
+                                371.0,
+                                230.0,
+                                385.0,
+                                181.0,
+                                385.0
+                            ],
+                            "text": "soluble",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                235.0,
+                                371.0,
+                                250.0,
+                                371.0,
+                                250.0,
+                                386.0,
+                                235.0,
+                                385.0
+                            ],
+                            "text": "in",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                255.0,
+                                371.0,
+                                286.0,
+                                371.0,
+                                286.0,
+                                386.0,
+                                255.0,
+                                386.0
+                            ],
+                            "text": "EtOH",
+                            "confidence": 0.933
+                        },
+                        {
+                            "boundingBox": [
+                                291.0,
+                                371.0,
+                                307.0,
+                                370.0,
+                                306.0,
+                                386.0,
+                                290.0,
+                                386.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                312.0,
+                                370.0,
+                                334.0,
+                                370.0,
+                                334.0,
+                                386.0,
+                                311.0,
+                                386.0
+                            ],
+                            "text": "0.2",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                339.0,
+                                370.0,
+                                376.0,
+                                370.0,
+                                376.0,
+                                386.0,
+                                339.0,
+                                386.0
+                            ],
+                            "text": "g/mL,",
+                            "confidence": 0.958
+                        },
+                        {
+                            "boundingBox": [
+                                379.0,
+                                370.0,
+                                408.0,
+                                370.0,
+                                408.0,
+                                386.0,
+                                379.0,
+                                386.0
+                            ],
+                            "text": "with",
+                            "confidence": 0.989
+                        },
+                        {
+                            "boundingBox": [
+                                414.0,
+                                370.0,
+                                478.0,
+                                371.0,
+                                478.0,
+                                385.0,
+                                414.0,
+                                386.0
+                            ],
+                            "text": "stirring,",
+                            "confidence": 0.99
+                        },
+                        {
+                            "boundingBox": [
+                                482.0,
+                                371.0,
+                                498.0,
+                                371.0,
+                                498.0,
+                                385.0,
+                                482.0,
+                                385.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                503.0,
+                                371.0,
+                                532.0,
+                                371.0,
+                                532.0,
+                                385.0,
+                                503.0,
+                                385.0
+                            ],
+                            "text": "room",
+                            "confidence": 0.988
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        127.0,
+                        385.0,
+                        352.0,
+                        384.0,
+                        353.0,
+                        397.0,
+                        127.0,
+                        399.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "temperature. Reference BC30-88.",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                128.0,
+                                385.0,
+                                211.0,
+                                385.0,
+                                211.0,
+                                399.0,
+                                128.0,
+                                399.0
+                            ],
+                            "text": "temperature.",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                221.0,
+                                385.0,
+                                285.0,
+                                385.0,
+                                285.0,
+                                398.0,
+                                221.0,
+                                398.0
+                            ],
+                            "text": "Reference",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                291.0,
+                                385.0,
+                                348.0,
+                                384.0,
+                                348.0,
+                                397.0,
+                                290.0,
+                                398.0
+                            ],
+                            "text": "BC30-88.",
+                            "confidence": 0.954
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        124.0,
+                        436.0,
+                        569.0,
+                        437.0,
+                        569.0,
+                        452.0,
+                        124.0,
+                        451.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "\"A221 forms a solution in corn oil at 0.5 g/0.5 mL, with stirring",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                124.0,
+                                437.0,
+                                155.0,
+                                437.0,
+                                155.0,
+                                452.0,
+                                124.0,
+                                452.0
+                            ],
+                            "text": "\"A221",
+                            "confidence": 0.365
+                        },
+                        {
+                            "boundingBox": [
+                                160.0,
+                                437.0,
+                                197.0,
+                                437.0,
+                                197.0,
+                                452.0,
+                                160.0,
+                                452.0
+                            ],
+                            "text": "forms",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                201.0,
+                                437.0,
+                                209.0,
+                                437.0,
+                                210.0,
+                                452.0,
+                                201.0,
+                                452.0
+                            ],
+                            "text": "a",
+                            "confidence": 0.996
+                        },
+                        {
+                            "boundingBox": [
+                                215.0,
+                                437.0,
+                                271.0,
+                                438.0,
+                                271.0,
+                                452.0,
+                                215.0,
+                                452.0
+                            ],
+                            "text": "solution",
+                            "confidence": 0.982
+                        },
+                        {
+                            "boundingBox": [
+                                276.0,
+                                438.0,
+                                291.0,
+                                438.0,
+                                292.0,
+                                452.0,
+                                276.0,
+                                452.0
+                            ],
+                            "text": "in",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                297.0,
+                                438.0,
+                                327.0,
+                                438.0,
+                                327.0,
+                                452.0,
+                                297.0,
+                                452.0
+                            ],
+                            "text": "corn",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                331.0,
+                                438.0,
+                                354.0,
+                                438.0,
+                                354.0,
+                                452.0,
+                                331.0,
+                                452.0
+                            ],
+                            "text": "oil",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                359.0,
+                                438.0,
+                                374.0,
+                                438.0,
+                                375.0,
+                                452.0,
+                                359.0,
+                                452.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                378.0,
+                                438.0,
+                                400.0,
+                                438.0,
+                                401.0,
+                                452.0,
+                                379.0,
+                                452.0
+                            ],
+                            "text": "0.5",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                406.0,
+                                438.0,
+                                443.0,
+                                438.0,
+                                443.0,
+                                452.0,
+                                407.0,
+                                452.0
+                            ],
+                            "text": "g/0.5",
+                            "confidence": 0.992
+                        },
+                        {
+                            "boundingBox": [
+                                447.0,
+                                438.0,
+                                472.0,
+                                437.0,
+                                472.0,
+                                452.0,
+                                447.0,
+                                452.0
+                            ],
+                            "text": "mL,",
+                            "confidence": 0.962
+                        },
+                        {
+                            "boundingBox": [
+                                475.0,
+                                437.0,
+                                504.0,
+                                437.0,
+                                504.0,
+                                452.0,
+                                475.0,
+                                452.0
+                            ],
+                            "text": "with",
+                            "confidence": 0.989
+                        },
+                        {
+                            "boundingBox": [
+                                510.0,
+                                437.0,
+                                567.0,
+                                437.0,
+                                567.0,
+                                453.0,
+                                510.0,
+                                452.0
+                            ],
+                            "text": "stirring",
+                            "confidence": 0.994
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        129.0,
+                        453.0,
+                        401.0,
+                        452.0,
+                        402.0,
+                        464.0,
+                        129.0,
+                        466.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "at room temperature. Reference BC30-88.",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                130.0,
+                                453.0,
+                                140.0,
+                                453.0,
+                                140.0,
+                                465.0,
+                                130.0,
+                                465.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.997
+                        },
+                        {
+                            "boundingBox": [
+                                146.0,
+                                453.0,
+                                174.0,
+                                453.0,
+                                174.0,
+                                466.0,
+                                146.0,
+                                465.0
+                            ],
+                            "text": "room",
+                            "confidence": 0.989
+                        },
+                        {
+                            "boundingBox": [
+                                180.0,
+                                453.0,
+                                265.0,
+                                452.0,
+                                264.0,
+                                466.0,
+                                180.0,
+                                466.0
+                            ],
+                            "text": "temperature.",
+                            "confidence": 0.991
+                        },
+                        {
+                            "boundingBox": [
+                                277.0,
+                                452.0,
+                                340.0,
+                                452.0,
+                                339.0,
+                                465.0,
+                                276.0,
+                                466.0
+                            ],
+                            "text": "Reference",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                345.0,
+                                452.0,
+                                401.0,
+                                452.0,
+                                400.0,
+                                464.0,
+                                344.0,
+                                465.0
+                            ],
+                            "text": "BC30-88.",
+                            "confidence": 0.981
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        125.0,
+                        486.0,
+                        145.0,
+                        485.0,
+                        144.0,
+                        493.0,
+                        124.0,
+                        494.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.945
+                        }
+                    },
+                    "text": "ORAL",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                125.0,
+                                486.0,
+                                144.0,
+                                485.0,
+                                144.0,
+                                493.0,
+                                125.0,
+                                494.0
+                            ],
+                            "text": "ORAL",
+                            "confidence": 0.645
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        127.0,
+                        504.0,
+                        568.0,
+                        503.0,
+                        568.0,
+                        520.0,
+                        127.0,
+                        521.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "A221 forms a solution in corn oil at 0.5 g/0.5 mL, with stirring",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                127.0,
+                                507.0,
+                                155.0,
+                                507.0,
+                                155.0,
+                                520.0,
+                                127.0,
+                                520.0
+                            ],
+                            "text": "A221",
+                            "confidence": 0.983
+                        },
+                        {
+                            "boundingBox": [
+                                160.0,
+                                507.0,
+                                197.0,
+                                506.0,
+                                196.0,
+                                520.0,
+                                160.0,
+                                520.0
+                            ],
+                            "text": "forms",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                201.0,
+                                506.0,
+                                209.0,
+                                506.0,
+                                209.0,
+                                520.0,
+                                200.0,
+                                520.0
+                            ],
+                            "text": "a",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                214.0,
+                                506.0,
+                                271.0,
+                                506.0,
+                                271.0,
+                                520.0,
+                                214.0,
+                                520.0
+                            ],
+                            "text": "solution",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                276.0,
+                                506.0,
+                                291.0,
+                                506.0,
+                                291.0,
+                                520.0,
+                                276.0,
+                                520.0
+                            ],
+                            "text": "in",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                297.0,
+                                506.0,
+                                326.0,
+                                506.0,
+                                326.0,
+                                520.0,
+                                296.0,
+                                520.0
+                            ],
+                            "text": "corn",
+                            "confidence": 0.986
+                        },
+                        {
+                            "boundingBox": [
+                                331.0,
+                                506.0,
+                                353.0,
+                                506.0,
+                                353.0,
+                                520.0,
+                                331.0,
+                                520.0
+                            ],
+                            "text": "oil",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                358.0,
+                                506.0,
+                                374.0,
+                                505.0,
+                                374.0,
+                                520.0,
+                                358.0,
+                                520.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                379.0,
+                                505.0,
+                                401.0,
+                                505.0,
+                                401.0,
+                                520.0,
+                                379.0,
+                                520.0
+                            ],
+                            "text": "0.5",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                406.0,
+                                505.0,
+                                442.0,
+                                505.0,
+                                442.0,
+                                520.0,
+                                406.0,
+                                520.0
+                            ],
+                            "text": "g/0.5",
+                            "confidence": 0.996
+                        },
+                        {
+                            "boundingBox": [
+                                446.0,
+                                505.0,
+                                471.0,
+                                505.0,
+                                471.0,
+                                520.0,
+                                446.0,
+                                520.0
+                            ],
+                            "text": "mL,",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                475.0,
+                                505.0,
+                                503.0,
+                                504.0,
+                                503.0,
+                                521.0,
+                                474.0,
+                                520.0
+                            ],
+                            "text": "with",
+                            "confidence": 0.989
+                        },
+                        {
+                            "boundingBox": [
+                                509.0,
+                                504.0,
+                                566.0,
+                                504.0,
+                                566.0,
+                                521.0,
+                                509.0,
+                                521.0
+                            ],
+                            "text": "stirring",
+                            "confidence": 0.995
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        127.0,
+                        520.0,
+                        403.0,
+                        519.0,
+                        403.0,
+                        532.0,
+                        127.0,
+                        533.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "at room temperature. Reference BC30-88.",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                127.0,
+                                521.0,
+                                140.0,
+                                521.0,
+                                140.0,
+                                534.0,
+                                127.0,
+                                534.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                146.0,
+                                521.0,
+                                173.0,
+                                521.0,
+                                173.0,
+                                534.0,
+                                146.0,
+                                534.0
+                            ],
+                            "text": "room",
+                            "confidence": 0.988
+                        },
+                        {
+                            "boundingBox": [
+                                179.0,
+                                521.0,
+                                265.0,
+                                520.0,
+                                265.0,
+                                533.0,
+                                179.0,
+                                534.0
+                            ],
+                            "text": "temperature.",
+                            "confidence": 0.992
+                        },
+                        {
+                            "boundingBox": [
+                                276.0,
+                                520.0,
+                                339.0,
+                                520.0,
+                                339.0,
+                                533.0,
+                                276.0,
+                                533.0
+                            ],
+                            "text": "Reference",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                345.0,
+                                520.0,
+                                402.0,
+                                519.0,
+                                402.0,
+                                532.0,
+                                344.0,
+                                533.0
+                            ],
+                            "text": "BC30-88.",
+                            "confidence": 0.992
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        114.0,
+                        573.0,
+                        205.0,
+                        573.0,
+                        205.0,
+                        583.0,
+                        114.0,
+                        584.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.945
+                        }
+                    },
+                    "text": "ACUTE CARDIOVASCULAR",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                116.0,
+                                574.0,
+                                138.0,
+                                574.0,
+                                137.0,
+                                584.0,
+                                116.0,
+                                584.0
+                            ],
+                            "text": "ACUTE",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                140.0,
+                                574.0,
+                                203.0,
+                                574.0,
+                                202.0,
+                                584.0,
+                                139.0,
+                                584.0
+                            ],
+                            "text": "CARDIOVASCULAR",
+                            "confidence": 0.671
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        126.0,
+                        599.0,
+                        517.0,
+                        598.0,
+                        517.0,
+                        613.0,
+                        126.0,
+                        615.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "A221 is insoluble for this procedure. Reference BC30-88.",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                127.0,
+                                599.0,
+                                154.0,
+                                600.0,
+                                154.0,
+                                615.0,
+                                126.0,
+                                614.0
+                            ],
+                            "text": "A221",
+                            "confidence": 0.987
+                        },
+                        {
+                            "boundingBox": [
+                                159.0,
+                                600.0,
+                                174.0,
+                                600.0,
+                                174.0,
+                                615.0,
+                                159.0,
+                                615.0
+                            ],
+                            "text": "is",
+                            "confidence": 0.993
+                        },
+                        {
+                            "boundingBox": [
+                                180.0,
+                                600.0,
+                                243.0,
+                                600.0,
+                                242.0,
+                                615.0,
+                                180.0,
+                                615.0
+                            ],
+                            "text": "insoluble",
+                            "confidence": 0.955
+                        },
+                        {
+                            "boundingBox": [
+                                248.0,
+                                600.0,
+                                271.0,
+                                600.0,
+                                270.0,
+                                615.0,
+                                248.0,
+                                615.0
+                            ],
+                            "text": "for",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                276.0,
+                                600.0,
+                                305.0,
+                                600.0,
+                                305.0,
+                                615.0,
+                                275.0,
+                                615.0
+                            ],
+                            "text": "this",
+                            "confidence": 0.989
+                        },
+                        {
+                            "boundingBox": [
+                                310.0,
+                                600.0,
+                                381.0,
+                                600.0,
+                                381.0,
+                                614.0,
+                                310.0,
+                                615.0
+                            ],
+                            "text": "procedure.",
+                            "confidence": 0.994
+                        },
+                        {
+                            "boundingBox": [
+                                391.0,
+                                600.0,
+                                456.0,
+                                600.0,
+                                456.0,
+                                613.0,
+                                391.0,
+                                614.0
+                            ],
+                            "text": "Reference",
+                            "confidence": 0.995
+                        },
+                        {
+                            "boundingBox": [
+                                461.0,
+                                600.0,
+                                517.0,
+                                599.0,
+                                517.0,
+                                612.0,
+                                460.0,
+                                613.0
+                            ],
+                            "text": "BC30-88.",
+                            "confidence": 0.991
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        114.0,
+                        635.0,
+                        220.0,
+                        634.0,
+                        220.0,
+                        644.0,
+                        114.0,
+                        645.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "STORAGE RECOMMENDATIONS",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                116.0,
+                                636.0,
+                                147.0,
+                                635.0,
+                                146.0,
+                                645.0,
+                                115.0,
+                                645.0
+                            ],
+                            "text": "STORAGE",
+                            "confidence": 0.976
+                        },
+                        {
+                            "boundingBox": [
+                                149.0,
+                                635.0,
+                                219.0,
+                                635.0,
+                                218.0,
+                                645.0,
+                                148.0,
+                                645.0
+                            ],
+                            "text": "RECOMMENDATIONS",
+                            "confidence": 0.651
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        662.0,
+                        643.0,
+                        666.0,
+                        732.0,
+                        649.0,
+                        733.0,
+                        646.0,
+                        644.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "87428306",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                662.0,
+                                644.0,
+                                666.0,
+                                727.0,
+                                649.0,
+                                728.0,
+                                646.0,
+                                645.0
+                            ],
+                            "text": "87428306",
+                            "confidence": 0.995
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        123.0,
+                        681.0,
+                        516.0,
+                        680.0,
+                        516.0,
+                        694.0,
+                        123.0,
+                        696.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "Refrigerate in an amber glass bottle at no more than 8\u2103.",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                125.0,
+                                681.0,
+                                201.0,
+                                681.0,
+                                201.0,
+                                696.0,
+                                124.0,
+                                696.0
+                            ],
+                            "text": "Refrigerate",
+                            "confidence": 0.993
+                        },
+                        {
+                            "boundingBox": [
+                                207.0,
+                                681.0,
+                                221.0,
+                                681.0,
+                                221.0,
+                                696.0,
+                                207.0,
+                                696.0
+                            ],
+                            "text": "in",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                227.0,
+                                681.0,
+                                243.0,
+                                681.0,
+                                242.0,
+                                696.0,
+                                227.0,
+                                696.0
+                            ],
+                            "text": "an",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                248.0,
+                                681.0,
+                                285.0,
+                                681.0,
+                                284.0,
+                                696.0,
+                                247.0,
+                                696.0
+                            ],
+                            "text": "amber",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                290.0,
+                                681.0,
+                                326.0,
+                                681.0,
+                                326.0,
+                                695.0,
+                                289.0,
+                                696.0
+                            ],
+                            "text": "glass",
+                            "confidence": 0.996
+                        },
+                        {
+                            "boundingBox": [
+                                330.0,
+                                681.0,
+                                374.0,
+                                681.0,
+                                373.0,
+                                695.0,
+                                329.0,
+                                695.0
+                            ],
+                            "text": "bottle",
+                            "confidence": 0.997
+                        },
+                        {
+                            "boundingBox": [
+                                379.0,
+                                681.0,
+                                394.0,
+                                681.0,
+                                393.0,
+                                695.0,
+                                378.0,
+                                695.0
+                            ],
+                            "text": "at",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                399.0,
+                                681.0,
+                                415.0,
+                                681.0,
+                                414.0,
+                                695.0,
+                                398.0,
+                                695.0
+                            ],
+                            "text": "no",
+                            "confidence": 0.998
+                        },
+                        {
+                            "boundingBox": [
+                                419.0,
+                                681.0,
+                                449.0,
+                                681.0,
+                                448.0,
+                                694.0,
+                                418.0,
+                                695.0
+                            ],
+                            "text": "more",
+                            "confidence": 0.989
+                        },
+                        {
+                            "boundingBox": [
+                                454.0,
+                                681.0,
+                                483.0,
+                                681.0,
+                                482.0,
+                                694.0,
+                                453.0,
+                                694.0
+                            ],
+                            "text": "than",
+                            "confidence": 0.988
+                        },
+                        {
+                            "boundingBox": [
+                                488.0,
+                                681.0,
+                                516.0,
+                                681.0,
+                                516.0,
+                                694.0,
+                                487.0,
+                                694.0
+                            ],
+                            "text": "8\u2103.",
+                            "confidence": 0.64
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        115.0,
+                        740.0,
+                        205.0,
+                        740.0,
+                        205.0,
+                        750.0,
+                        115.0,
+                        750.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "COMPOUND SENSITIVE TO",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                117.0,
+                                741.0,
+                                157.0,
+                                741.0,
+                                156.0,
+                                750.0,
+                                117.0,
+                                750.0
+                            ],
+                            "text": "COMPOUND",
+                            "confidence": 0.969
+                        },
+                        {
+                            "boundingBox": [
+                                158.0,
+                                741.0,
+                                192.0,
+                                741.0,
+                                191.0,
+                                750.0,
+                                158.0,
+                                750.0
+                            ],
+                            "text": "SENSITIVE",
+                            "confidence": 0.981
+                        },
+                        {
+                            "boundingBox": [
+                                194.0,
+                                741.0,
+                                205.0,
+                                741.0,
+                                204.0,
+                                750.0,
+                                193.0,
+                                750.0
+                            ],
+                            "text": "TO",
+                            "confidence": 0.981
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        135.0,
+                        762.0,
+                        262.0,
+                        761.0,
+                        262.0,
+                        773.0,
+                        135.0,
+                        774.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "JAG HEAT O MOISTURE",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                138.0,
+                                762.0,
+                                157.0,
+                                762.0,
+                                157.0,
+                                774.0,
+                                137.0,
+                                774.0
+                            ],
+                            "text": "JAG",
+                            "confidence": 0.984
+                        },
+                        {
+                            "boundingBox": [
+                                179.0,
+                                762.0,
+                                200.0,
+                                762.0,
+                                200.0,
+                                774.0,
+                                179.0,
+                                774.0
+                            ],
+                            "text": "HEAT",
+                            "confidence": 0.812
+                        },
+                        {
+                            "boundingBox": [
+                                214.0,
+                                762.0,
+                                221.0,
+                                762.0,
+                                221.0,
+                                774.0,
+                                214.0,
+                                774.0
+                            ],
+                            "text": "O",
+                            "confidence": 0.784
+                        },
+                        {
+                            "boundingBox": [
+                                223.0,
+                                762.0,
+                                260.0,
+                                761.0,
+                                259.0,
+                                773.0,
+                                223.0,
+                                774.0
+                            ],
+                            "text": "MOISTURE",
+                            "confidence": 0.159
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        274.0,
+                        761.0,
+                        311.0,
+                        761.0,
+                        311.0,
+                        772.0,
+                        274.0,
+                        772.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "OTHER",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                284.0,
+                                762.0,
+                                309.0,
+                                762.0,
+                                309.0,
+                                772.0,
+                                284.0,
+                                772.0
+                            ],
+                            "text": "OTHER",
+                            "confidence": 0.614
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        116.0,
+                        791.0,
+                        312.0,
+                        789.0,
+                        312.0,
+                        799.0,
+                        116.0,
+                        801.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "SAFETY COMMENTS (SUGGESTED HANDLING PROCEDURE)",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                117.0,
+                                792.0,
+                                142.0,
+                                792.0,
+                                142.0,
+                                801.0,
+                                117.0,
+                                802.0
+                            ],
+                            "text": "SAFETY",
+                            "confidence": 0.629
+                        },
+                        {
+                            "boundingBox": [
+                                144.0,
+                                792.0,
+                                179.0,
+                                791.0,
+                                179.0,
+                                801.0,
+                                144.0,
+                                801.0
+                            ],
+                            "text": "COMMENTS",
+                            "confidence": 0.974
+                        },
+                        {
+                            "boundingBox": [
+                                181.0,
+                                791.0,
+                                226.0,
+                                790.0,
+                                226.0,
+                                800.0,
+                                181.0,
+                                801.0
+                            ],
+                            "text": "(SUGGESTED",
+                            "confidence": 0.984
+                        },
+                        {
+                            "boundingBox": [
+                                228.0,
+                                790.0,
+                                264.0,
+                                790.0,
+                                264.0,
+                                800.0,
+                                228.0,
+                                800.0
+                            ],
+                            "text": "HANDLING",
+                            "confidence": 0.716
+                        },
+                        {
+                            "boundingBox": [
+                                266.0,
+                                790.0,
+                                312.0,
+                                789.0,
+                                312.0,
+                                799.0,
+                                266.0,
+                                800.0
+                            ],
+                            "text": "PROCEDURE)",
+                            "confidence": 0.76
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        292.0,
+                        863.0,
+                        298.0,
+                        863.0,
+                        297.0,
+                        872.0,
+                        291.0,
+                        872.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.644
+                        }
+                    },
+                    "text": "1",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                292.0,
+                                863.0,
+                                297.0,
+                                863.0,
+                                297.0,
+                                872.0,
+                                292.0,
+                                872.0
+                            ],
+                            "text": "1",
+                            "confidence": 0.833
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        116.0,
+                        885.0,
+                        426.0,
+                        887.0,
+                        426.0,
+                        909.0,
+                        116.0,
+                        907.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "handwriting",
+                            "confidence": 1.0
+                        }
+                    },
+                    "text": "SIGNATURE Elizabeth W. Crouse A - 13",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                117.0,
+                                886.0,
+                                153.0,
+                                886.0,
+                                152.0,
+                                903.0,
+                                116.0,
+                                899.0
+                            ],
+                            "text": "SIGNATURE",
+                            "confidence": 0.708
+                        },
+                        {
+                            "boundingBox": [
+                                157.0,
+                                886.0,
+                                245.0,
+                                887.0,
+                                244.0,
+                                908.0,
+                                156.0,
+                                903.0
+                            ],
+                            "text": "Elizabeth",
+                            "confidence": 0.326
+                        },
+                        {
+                            "boundingBox": [
+                                250.0,
+                                887.0,
+                                279.0,
+                                887.0,
+                                278.0,
+                                909.0,
+                                249.0,
+                                909.0
+                            ],
+                            "text": "W.",
+                            "confidence": 0.625
+                        },
+                        {
+                            "boundingBox": [
+                                284.0,
+                                887.0,
+                                355.0,
+                                888.0,
+                                354.0,
+                                907.0,
+                                283.0,
+                                909.0
+                            ],
+                            "text": "Crouse",
+                            "confidence": 0.936
+                        },
+                        {
+                            "boundingBox": [
+                                372.0,
+                                888.0,
+                                384.0,
+                                888.0,
+                                383.0,
+                                906.0,
+                                371.0,
+                                907.0
+                            ],
+                            "text": "A",
+                            "confidence": 0.987
+                        },
+                        {
+                            "boundingBox": [
+                                389.0,
+                                888.0,
+                                401.0,
+                                888.0,
+                                401.0,
+                                905.0,
+                                389.0,
+                                906.0
+                            ],
+                            "text": "-",
+                            "confidence": 0.98
+                        },
+                        {
+                            "boundingBox": [
+                                406.0,
+                                888.0,
+                                426.0,
+                                888.0,
+                                425.0,
+                                903.0,
+                                406.0,
+                                904.0
+                            ],
+                            "text": "13",
+                            "confidence": 0.998
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        505.0,
+                        881.0,
+                        673.0,
+                        881.0,
+                        673.0,
+                        905.0,
+                        505.0,
+                        904.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "handwriting",
+                            "confidence": 1.0
+                        }
+                    },
+                    "text": "november 28, 1990",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                512.0,
+                                882.0,
+                                594.0,
+                                883.0,
+                                594.0,
+                                905.0,
+                                512.0,
+                                905.0
+                            ],
+                            "text": "november",
+                            "confidence": 0.257
+                        },
+                        {
+                            "boundingBox": [
+                                598.0,
+                                883.0,
+                                620.0,
+                                883.0,
+                                620.0,
+                                904.0,
+                                598.0,
+                                905.0
+                            ],
+                            "text": "28,",
+                            "confidence": 0.74
+                        },
+                        {
+                            "boundingBox": [
+                                624.0,
+                                883.0,
+                                673.0,
+                                883.0,
+                                673.0,
+                                904.0,
+                                624.0,
+                                904.0
+                            ],
+                            "text": "1990",
+                            "confidence": 0.99
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        114.0,
+                        910.0,
+                        218.0,
+                        909.0,
+                        218.0,
+                        920.0,
+                        114.0,
+                        922.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "LORILLARD RESEARCH CENTER",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                114.0,
+                                912.0,
+                                151.0,
+                                910.0,
+                                150.0,
+                                921.0,
+                                114.0,
+                                921.0
+                            ],
+                            "text": "LORILLARD",
+                            "confidence": 0.767
+                        },
+                        {
+                            "boundingBox": [
+                                153.0,
+                                910.0,
+                                189.0,
+                                909.0,
+                                188.0,
+                                921.0,
+                                152.0,
+                                921.0
+                            ],
+                            "text": "RESEARCH",
+                            "confidence": 0.609
+                        },
+                        {
+                            "boundingBox": [
+                                191.0,
+                                909.0,
+                                218.0,
+                                909.0,
+                                218.0,
+                                921.0,
+                                190.0,
+                                921.0
+                            ],
+                            "text": "CENTER",
+                            "confidence": 0.996
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": [
+                        649.0,
+                        903.0,
+                        698.0,
+                        903.0,
+                        698.0,
+                        914.0,
+                        649.0,
+                        913.0
+                    ],
+                    "appearance": {
+                        "style": {
+                            "name": "other",
+                            "confidence": 0.972
+                        }
+                    },
+                    "text": "FORM 9 (8/833)",
+                    "words": [
+                        {
+                            "boundingBox": [
+                                650.0,
+                                903.0,
+                                671.0,
+                                903.0,
+                                670.0,
+                                914.0,
+                                650.0,
+                                914.0
+                            ],
+                            "text": "FORM",
+                            "confidence": 0.628
+                        },
+                        {
+                            "boundingBox": [
+                                673.0,
+                                903.0,
+                                677.0,
+                                904.0,
+                                676.0,
+                                914.0,
+                                672.0,
+                                914.0
+                            ],
+                            "text": "9",
+                            "confidence": 0.894
+                        },
+                        {
+                            "boundingBox": [
+                                679.0,
+                                904.0,
+                                698.0,
+                                904.0,
+                                697.0,
+                                914.0,
+                                678.0,
+                                914.0
+                            ],
+                            "text": "(8/833)",
+                            "confidence": 0.043
                         }
                     ]
                 }
             ]
         }
-    ],
-    "model_version": "2021-04-01"
+    ]
 }
