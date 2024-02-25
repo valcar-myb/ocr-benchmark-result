@@ -12,7 +12,7 @@ ocr-benchmark-result
 | tesseractOCR | . | . |
 - after training/finetuning
 
-### models used for training FUNSD dataset
+### training FUNSD dataset
 | | Detection model | Recognition model |
 | --- | --- | --- |
 | docTR | `db_resnet50` | `crnn_vgg16_bn` |
@@ -21,7 +21,7 @@ ocr-benchmark-result
 | easyOCR | . | . |
 | tesseractOCR | . | . |
 
-### models used for training IAM dataset
+### training IAM dataset
 | | Detection model | Recognition model |
 | --- | --- | --- |
 | docTR | `db_resnet50` | `crnn_vgg16_bn` |
@@ -30,7 +30,7 @@ ocr-benchmark-result
 | easyOCR | . | . |
 | tesseractOCR | . | . |
 
-### models used for training SROIE dataset
+### training SROIE dataset
 |  | Detection model | Recognition model |
 | --- | --- | --- |
 | docTR | `db_resnet50` | `crnn_vgg16_bn` |
