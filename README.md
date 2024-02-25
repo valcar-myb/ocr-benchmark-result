@@ -9,8 +9,7 @@ ocr-benchmark-result
 | paddleOCR | `en_PP-OCRv3_det_infer` | `en_PP-OCRv4_rec_infer` |
 | mmOCR | `DBNet` | `CRNN` |
 | easyOCR | . | . |
-| tesseractOCR | . | . |
-- after training/finetuning
+| tesseract | . | . |
 
 ### training FUNSD dataset
 | | Detection model | det-config | Recognition model | rec-config |
@@ -19,7 +18,7 @@ ocr-benchmark-result
 | paddleOCR | `en_PP-OCRv3_det_infer` | . | `en_PP-OCRv4_rec_infer` | . |
 | mmOCR | `DBNet` | . | `CRNN` | . |
 | easyOCR | . | . | . | . |
-| tesseractOCR | . | . | . | . |
+| tesseract | . | . | . | . |
 
 ### training IAM dataset
 | | Detection model | det-config | Recognition model | rec-config |
@@ -28,7 +27,7 @@ ocr-benchmark-result
 | paddleOCR | `en_PP-OCRv3_det_infer` | . | `en_PP-OCRv4_rec_infer` | . |
 | mmOCR | `DBNet` | . | `CRNN` | . |
 | easyOCR | . | . | . | . |
-| tesseractOCR | . | . | . | . |
+| tesseract | . | . | . | . |
 
 ### training SROIE dataset
 | | Detection model | det-config | Recognition model | rec-config |
@@ -37,4 +36,4 @@ ocr-benchmark-result
 | paddleOCR | `en_PP-OCRv3_det_infer` | . | `en_PP-OCRv4_rec_infer` | . |
 | mmOCR | `DBNet` | . | `CRNN` | . |
 | easyOCR | . | . | . | . |
-| tesseractOCR | . | . | . | . |
+| tesseract | . | . | . | . |
