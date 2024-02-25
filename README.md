@@ -7,7 +7,7 @@ ocr-benchmark-result
 | --- | --- | --- |
 | docTR | `db_resnet50` | `crnn_vgg16_bn` |
 | paddleOCR | `en_PP-OCRv3_det_infer` | `en_PP-OCRv4_rec_infer` |
-| mmOCR | . | . |
+| mmOCR | `DBNet` | `CRNN` |
 | easyOCR | . | . |
 | tesseractOCR | . | . |
 - after training/finetuning
