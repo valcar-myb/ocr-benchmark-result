@@ -11,9 +11,9 @@ python3 -m paddle.distributed.launch --gpus '0,1,2,3' \
                              Eval.dataset.label_file_list=["./train_data/iam/Detection/val_label.txt"] \
                              Eval.loader.num_workers=32
 ```
-| epochs | optimizer | learning rate | regularizer | model |
+| model | epochs | optimizer | learning rate | regularizer |
 | --- | --- | --- | --- | --- |
-| 1200 | Adam | 0.001 | L2 | MobileNetV3_large_x0_5_pretrained |
+| MobileNetV3_large_x0_5_pretrained | 1200 | Adam | 0.001 | L2 |
 # Recognition
 The model chosen for training is `en_PP-OCRv3_rec_train`
 ```bash
@@ -29,6 +29,6 @@ python3 -m paddle.distributed.launch --gpus '0,1,2,3' \
                              Eval.dataset.label_file_list=["./train_data/iam/Recognition/val_label.txt"] \
                              Eval.loader.num_workers=64
 ```
-| epochs | optimizer | learning rate | regularizer | model |
+| model | epochs | optimizer | learning rate | regularizer |
 | --- | --- | --- | --- | --- |
-| 1200 | Adam | 0.001 | L2 | en_PP-OCRv3_rec_train |
+| en_PP-OCRv3_rec_train | 1200 | Adam | 0.001 | L2 |
