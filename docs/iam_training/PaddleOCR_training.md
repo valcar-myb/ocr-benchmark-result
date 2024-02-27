@@ -30,4 +30,4 @@ python3 -m paddle.distributed.launch --gpus '0,1,2,3' \
 ```
 | model | epochs | optimizer | learning rate | regularizer |
 | --- | --- | --- | --- | --- |
-| en_PP-OCRv3_rec_train | 1200 | Adam | 0.001 | L2 |
+| en_PP-OCRv3_rec_train | 500 | Adam | 0.001 | L2 |
