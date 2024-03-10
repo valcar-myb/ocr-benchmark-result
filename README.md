@@ -17,8 +17,8 @@ Below are the models used for training the various datasets.
 | | Detection model | Recognition model | train-config |
 | --- | --- | --- | --- |
 | docTR | `db_resnet50` | `crnn_vgg16_bn` | [config](/docs/funsd_training/docTR_training.md) |
-| paddleOCR | `en_PP-OCRv3_det_infer` | `en_PP-OCRv4_rec_infer` | . |
-| mmOCR | `DBNet` | `CRNN` | . |
+| paddleOCR | `ResNet18_vd_pretrained` | `en_PP-OCRv3_rec_train` | [config](/docs/funsd_training/PaddleOCR_training.md) |
+| mmOCR | `DBNet` | `CRNN` | [config](/docs/funsd_training/mmocr_training.md) |
 | easyOCR | . | . | . |
 | tesseract | . | . | . |
 
@@ -26,8 +26,8 @@ Below are the models used for training the various datasets.
 | | Detection model | Recognition model | train-config |
 | --- | --- | --- | --- |
 | docTR | `db_resnet50` | `crnn_vgg16_bn` | . |
-| paddleOCR | `en_PP-OCRv3_det_infer` | `en_PP-OCRv4_rec_infer` | . |
-| mmOCR | `DBNet` | `CRNN` | . |
+| paddleOCR | `ResNet18_vd_pretrained` | `en_PP-OCRv3_rec_train` | [config](/docs/iam_training/PaddleOCR_training.md) |
+| mmOCR | `DBNet` | `CRNN` | [config](/docs/iam_training/mmocr_training.md) |
 | easyOCR | . | . | . |
 | tesseract | . | . | . |
 
@@ -35,7 +35,7 @@ Below are the models used for training the various datasets.
 | | Detection model | Recognition model | train-config |
 | --- | --- | --- | --- |
 | docTR | `db_resnet50` | `crnn_vgg16_bn` | . |
-| paddleOCR | `en_PP-OCRv3_det_infer` | `en_PP-OCRv4_rec_infer` | . |
-| mmOCR | `DBNet` | `ASTER` | . |
+| paddleOCR | `ResNet50_vd_ssld_pretrained` | `en_PP-OCRv3_rec_train` | [config](/docs/sroie_training/PaddleOCR_training.md) |
+| mmOCR | `DBNet` | `ASTER` | [config](/docs/sroie_training/mmocr_training.md) |
 | easyOCR | . | . | . |
 | tesseract | . | . | . |
