@@ -65,7 +65,7 @@ The full config file is [here](/docs/iam_training/config/dbnet_resnet50-dcnv2_fp
 | --- | --- | --- | --- |
 | DBNet | 1200 | SGD | 0.007 |
 # Recognition
-This has to be saved inside `configs/textdet/_base_/datasets` and I called it `iam.py`
+This has to be saved inside `configs/textrecog/_base_/datasets` and I called it `iam.py`
 ```python
 iam_textrecog_data_root = "data/iam"
 iam_textrecog_train = dict(
@@ -82,7 +82,7 @@ iam_textrecog_test = dict(
     pipeline=None
 )
 ```
-This has to be saved inside `configs/textdet/crnn` and I called it `crnn_mini-vgg_5e_iam.py`
+This has to be saved inside `configs/textrecog/crnn` and I called it `crnn_mini-vgg_5e_iam.py`
 ```python
 _base_ = [
     '../_base_/default_runtime.py',
