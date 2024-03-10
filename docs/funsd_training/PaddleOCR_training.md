@@ -12,6 +12,7 @@ python3 -m paddle.distributed.launch --gpus '0,1,2,3' \
                           Eval.dataset.label_file_list=["./train_data/funsd/Detection/val_label.txt"] \
                           Eval.loader.num_workers=32
 ```
+The full config file is [here](/docs/funsd_training/config/funsd-det_mv3_db.yml)
 | model | epochs | optimizer | learning rate | regularizer |
 | --- | --- | --- | --- | --- |
 | MobileNetV3_large_x0_5_pretrained | 1200 | Adam | 0.001 | L2 |
@@ -31,6 +32,7 @@ python3 -m paddle.distributed.launch --gpus '0,1,2,3' \
                           Eval.dataset.label_file_list=["./train_data/funsd/Recognition/val_label.txt"] \
                           Eval.loader.num_workers=64
 ```
+The full config file is [here](/docs/funsd_training/config/funsd-en_PP-OCRv3_rec.yml)
 | model | epochs | optimizer | learning rate | regularizer |
 | --- | --- | --- | --- | --- |
 | en_PP-OCRv3_rec_train | 500 | Adam | 0.001 | L2 |

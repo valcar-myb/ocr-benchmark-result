@@ -10,6 +10,7 @@ python3 -m paddle.distributed.launch --gpus '0,1,2,3' \
                           Eval.dataset.data_dir=./train_data/sroie/Detection/val_img \
                           Eval.dataset.label_file_list=["./train_data/sroie/Detection/val_label.txt"]
 ```
+The full config file is [here](/docs/sroie_training/config/sroie-det_r50_vd_db.yml)
 | model | epochs | optimizer | learning rate | regularizer |
 | --- | --- | --- | --- | --- |
 | ResNet50_vd_ssld_pretrained.pdparams | 1200 | Adam | 0.001 | L2 |
@@ -29,6 +30,7 @@ python3 -m paddle.distributed.launch --gpus '0,1,2,3' \
                           Eval.dataset.label_file_list=["./train_data/sroie/Recognition/val_label.txt"] \
                           Eval.loader.num_workers=64
 ```
+The full config file is [here](/docs/sroie_training/config/sroie-en_PP-OCRv3_rec.yml)
 | model | epochs | optimizer | learning rate | regularizer |
 | --- | --- | --- | --- | --- |
 | en_PP-OCRv3_rec_train | 500 | Adam | 0.001 | L2 |
