@@ -1,4 +1,3 @@
-
 # Detection
 This has to be saved inside `configs/textdet/_base_/datasets` and I called it `iam.py`
 ```python
